@@ -53,6 +53,12 @@ a:link {
 .pictures {
     margin: 30px;
 }
+.pdf {
+    position: static;
+    align-content: center;
+}
+    
+
 .form {
     background-color: #e7ded9;
     background-position: center;
