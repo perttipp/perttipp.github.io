@@ -59,7 +59,9 @@ a:link {
     margin: 30px;
 }
     
-
+.content [
+    margin: 30px;
+]
 .form {
     background-color: #e7ded9;
     background-position: center;
