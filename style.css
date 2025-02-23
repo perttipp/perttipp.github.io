@@ -39,8 +39,8 @@ a:link {
 .header2 h2 {
     font-size: 28px;
     text-align: left;
-    padding: 25px 0px 0px 135px;
-    margin: 30px;
+    padding: 25px 0px 0px 150px;
+    
 
 }
 .linkit  {
@@ -61,7 +61,7 @@ a:link {
     background-color: #e7ded9;
     margin: 30px;
 }
-}
+
 .footer {
     background-color: #ffffff;
     margin: 30px;
