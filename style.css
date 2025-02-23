@@ -38,12 +38,17 @@ a:visited {
 .header1 {
     !background-color: #ffffff;
     margin: 30px;
-    background-image: url("metsa.jpg");
-    background-position: 0 0;
-    padding: 0px 0px 0px 0px;
+    background-image: url("voima1.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 300px 0px 150px 0px;
 
 }
-
+.header1 img {
+    object-fit: fill;
+}
 .header1 h1 {
     font-size: 35px;
     text-align: left;
