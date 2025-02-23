@@ -21,6 +21,10 @@ p {
 
 a:link {
     color: #13292A;
+a:visited {
+    color: none;
+    background-color: none;
+    text-decoration: none;   
   }
 .header1 {
     background-color: #ffffff;
