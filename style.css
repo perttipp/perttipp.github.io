@@ -25,7 +25,7 @@ a:link {
 }
 
 .header1 h1 {
-    font-size: 32px;
+    font-size: 35px;
     text-align: left;
     padding: 25px 0px 0px 150px;
 }
@@ -35,14 +35,14 @@ a:link {
 
 }
 .header2 h2 {
-    font-size: 25px;
+    font-size: 28px;
     text-align: left;
     padding: 15px 0px 0px 150px;
     margin: 30px;
 
 }
 .linkit  {
-    font-size: 20px;
+    font-size: 25px;
     text-align: right;
     padding: 2px 40px 2px 0px;
     margin: 30px;
