@@ -70,6 +70,7 @@ a:visited {
 .linkit {
         display: flex;
         justify-content: flex-end;
+        margin: 30px;
 }
 .pictures {
     margin: 30px;
