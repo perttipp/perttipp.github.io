@@ -101,6 +101,9 @@ a:visited {
 .pdf img {
     max-width: 100%;
     height: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: #13292A;
     }
 .content {
     background-color: #e7ded9;
