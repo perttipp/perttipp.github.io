@@ -18,7 +18,7 @@ p {
 .header1 h1 {
     font-size: 32px;
     text-align: left;
-    color #13292A;
+    color: red;
 }
 .header2 {
     background-color: #ffffff;
