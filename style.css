@@ -1,5 +1,7 @@
 body {
     background-color: #e7ded9 ;
+    a:hover {
+        color: hotpink;
   }Div {
     border: 1px;
     color: black;
@@ -54,9 +56,10 @@ a:link {
     margin: 30px;
 }
 .pdf {
-    position: static;
-    align-content: center;
-    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
     
 .content {
