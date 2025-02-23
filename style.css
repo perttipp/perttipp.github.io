@@ -33,12 +33,12 @@ a:link {
 .header2 h2 {
     font-size: 20px;
     text-align: left;
-    padding: 25px 0px 0px 150px;
+    padding: 15px 0px 0px 150px;
 }
-.header2 a {
-    font-size: 20px;
+.linkit  {
+    font-size: 15px;
     text-align: right;
-    padding: 25px 0px 0px 150px;
+    padding: 2px 15px 2px 0px;
 }
 
 .form {
