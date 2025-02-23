@@ -1,6 +1,7 @@
 
 body {  
-   
+    width:800px;
+    margin:0 auto;
 
     background-color: #e7ded9 ;
     a:hover {
