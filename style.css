@@ -1,7 +1,7 @@
 Div {
     border: 1px;
     color: black;
-    border-style: solid;
+    border-style: none;
     padding: 30px;
     margin: 20px;
 }
