@@ -36,22 +36,25 @@ a:visited {
     text-decoration: none;   
   }
 .header1 {
-    background-color: #ffffff;
+    !background-color: #ffffff;
     margin: 30px;
-    background-color: #ffffff;
+    background-image: url("metsa.jpg");
+    background-position: 0 0;
     padding: 0px 0px 0px 0px;
+
 }
 
 .header1 h1 {
     font-size: 35px;
     text-align: left;
     padding: 25px 0px 0px 150px;
-
+    background-position: 0 -220px;
 }
 .header2 {
-    background-color: #ffffff;
+    !background-color: #ffffff;
     margin: 30px;
     padding: 0px 0px 0px 0px;
+    background-image: url("metsa.jpg");
 }
 .header2 h2 {
     font-size: 28px;
