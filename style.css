@@ -1,4 +1,6 @@
-Div {
+body {
+    background-color: #e7ded9 ;
+  }Div {
     border: 1px;
     color: black;
     border-style: solid;
@@ -7,7 +9,7 @@ Div {
 }
 
 p {
-    color:green;
+    color:#13292Aeen;
     font-family: 'Lustria', sans-serif;
     font: Lustria; 
     !padding: 530px 300px 50px 10px;
@@ -44,7 +46,7 @@ a:link {
 .linkit  {
     font-size: 25px;
     text-align: right;
-    padding: 2px 40px 2px 0px;
+    padding: 2px 70px 2px 0px;
     margin: 30px;
 
 }
@@ -53,7 +55,12 @@ a:link {
     background-color: #e7ded9;
     background-position: center;
     margin: 30px;
+}
 
+.kiitos {
+    background-color: #e7ded9;
+    margin: 30px;
+}
 }
 .footer {
     background-color: #ffffff;
