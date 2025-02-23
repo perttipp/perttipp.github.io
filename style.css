@@ -124,7 +124,8 @@ a:visited {
     .pictures,
     .content,
     .footer,
-    .kiitos{
+    .kiitos,
+    .pdf{
         margin: 0;
         padding: 0;
     }
