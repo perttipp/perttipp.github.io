@@ -50,7 +50,9 @@ a:link {
     margin: 30px;
 
 }
-
+.pictures {
+    margin: 30px;
+}
 .form {
     background-color: #e7ded9;
     background-position: center;
@@ -64,6 +66,6 @@ a:link {
 
 .footer {
     background-color: #ffffff;
-    margin: 30px;
+    !margin: 30px;
 
   }
