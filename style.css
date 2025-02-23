@@ -122,7 +122,9 @@ a:visited {
     .header2,
     .linkit,
     .pictures,
-    .content {
+    .content,
+    .footer,
+    .kiitos{
         margin: 0;
         padding: 0;
     }
