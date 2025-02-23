@@ -78,6 +78,7 @@ a:visited {
         display: flex;
         justify-content: flex-end;
         margin: 30px;
+        background-color: #ffffff;
 }
 .pictures {
     margin: 30px;
