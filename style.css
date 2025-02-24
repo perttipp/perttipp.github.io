@@ -12,8 +12,8 @@ html {
 body {      
     
   Div {
-    border: 0.5px;
-    color: black;
+    border: 1px;
+    color:#13292;
     border-style: solid;
     padding: 0px;
 }
