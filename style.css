@@ -95,7 +95,7 @@ a:visited {
         display: flex;
         justify-content: flex-end;
         margin: 30px;
-        background-color: #ffffff;
+        background-color: #e7ded9;
         padding: 0px 0px 0px 0px;
         width: 100%;
         height: auto;
@@ -134,7 +134,7 @@ a:visited {
 
 .footer {
     background-color: #ffffff;
-    height: 150px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
