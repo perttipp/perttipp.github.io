@@ -50,7 +50,7 @@ a:visited {
 }
 @media screen and (min-width: 480px) {
     .header1 {
-        height: 100px;
+        height: 10px;
     }
 }
 .header1 img {
