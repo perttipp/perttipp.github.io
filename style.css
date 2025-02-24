@@ -41,12 +41,11 @@ a:visited {
     height: 350px;
     padding: 300px 0px 150px 0px;
     width: 100%;
-    
+
 }
 @media screen and (max-width: 480px) {
     .header1 {
-        height: 100px !important;
-        background-color: red;
+        height: 150px !important;
     }
 }
 .header1 img {
