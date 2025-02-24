@@ -47,7 +47,11 @@ a:visited {
     height: auto !important;
     min-height: 350px;
     1width: auto !important;
-    
+}
+.header1 @media screen and (min-width: 480px) {
+        height: auto;
+    }
+
 }
 .header1 img {
     max-width: 50%;
