@@ -46,11 +46,17 @@ a:visited {
 @media screen and (max-width: 480px) {
     .header1 {
         height: 10px !important;
+        background-color: red;
     }
 }
 .header1 img {
     max-width: 50%;
     height: auto;
+}
+@media screen and (mmax-width: 480px) {
+    .header1 img {
+        height: 100px !important;
+    }
 }
 .header1 h1 {
     font-size: 35px;
