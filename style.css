@@ -131,6 +131,8 @@ a:visited {
 }
 .footer a {
     padding: 0px 0px 0px 0px; 
+    vertical-align: top !important;
+
     }
 .footer p {
     padding: 0px 0px 0px 0px !important;
