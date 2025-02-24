@@ -125,8 +125,28 @@ a:visited {
     background-color: #e7ded9;
     background-position: center;
     height: 700px;
+     display: flex;
+    justify-content: center; /* Centers form horizontally */
+    align-items: center; /* Centers form elements vertically */
+    text-align: center; /* Ensures inline elements are centered */
+    width: 100%;
 }
-
+.form form {
+    display: flex;
+    flex-direction: column; /* Stacks inputs vertically */
+    align-items: center; /* Centers inputs horizontally */
+    width: 100%; /* Adjust width if needed */
+    max-width: 400px; /* Prevents inputs from being too wide */
+}
+.form input,
+.form textarea {
+    width: 100%; /* Makes inputs take full width of form */
+    max-width: 350px; /* Adjust width for better layout */
+    margin-bottom: 10px; /* Adds space between inputs */
+    padding: 10px; /* Better spacing inside inputs */
+    border: 1px solid #13292A; /* Adds a border */
+    border-radius: 5px; /* Slight rounding for aesthetics */
+}
 .kiitos {
     background-color: #e7ded9;
     margin: 30px;
