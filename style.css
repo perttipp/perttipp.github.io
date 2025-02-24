@@ -2,10 +2,13 @@
 body {  
 
     !<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    width:1300px;
-    margin:0 auto;
-
+    
+    max-width: 1300px;
+    width: 80%; 
+    position: center;
+    margin: 0 auto;
     background-color: #e7ded9 ;
+    
     a:hover {
         color: hotpink;
         
@@ -141,16 +144,17 @@ a:visited {
 .footer {
     background-color: #ffffff;
     margin: 30px;
-    }
-    .header1,
-    .header2,
-    .linkit,
-    .pictures,
-    .content,
-    .footer,
-    .kiitos,
-    .pdf{
-        margin: 0;
-        padding: 0;
+}
+.header1,
+.header2,
+.linkit,
+.pictures,
+.content,
+.footer,
+.kiitos,
+.pdf{
+    margin: 0;
+    padding: 0;
     }
 }
+
