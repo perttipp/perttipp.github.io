@@ -151,6 +151,7 @@ a:visited {
 .footer a {
     display: flex;
     padding: 0px 0px 0px 30px;
+    justify-content: center;
     align-items: center;
     
     }
