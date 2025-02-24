@@ -149,12 +149,12 @@ a:visited {
     border-radius: 5px; /* Slight rounding for aesthetics */
     font-family: 'Lato', sans-serif;
 }
-.form input[type="submit"] {
+.laheta {
     cursor: pointer;
     transition: 0.3s;
 }
-.form input[type="submit"]:hover {
-    background-color: #b21e1e;
+.laheta:hover {
+    color: #2d63c8 !important;
 }
 
 .kiitos {
