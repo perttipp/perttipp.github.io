@@ -132,6 +132,9 @@ a:visited {
 .footer a {
     padding: 0px 0px 0px 30px; 
     }
+.footer p {
+    padding: 80px 0px 0px 30px; 
+    }
 .header1,
 .header2,
 .linkit,
