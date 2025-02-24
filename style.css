@@ -146,6 +146,7 @@ a:visited {
     padding: 10px; /* Better spacing inside inputs */
     border: 1px solid #13292A; /* Adds a border */
     border-radius: 5px; /* Slight rounding for aesthetics */
+    font-family: 'Lato', sans-serif;
 }
 .kiitos {
     background-color: #e7ded9;
