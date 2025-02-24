@@ -38,11 +38,11 @@ a:visited {
 .header1 {
     !background-color: #ffffff;
     margin: 30px;
-    background-image: url("voima1.jpg");
+    background-image: url("pic2.jpg");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    height: 300px;
+    height: 350px;
     padding: 300px 0px 150px 0px;
 
 }
