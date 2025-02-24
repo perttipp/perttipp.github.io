@@ -130,10 +130,11 @@ a:visited {
     justify-content: center;
 }
 .footer a {
-    padding: 0px 0px 0px 30px; 
+    padding: 0px 0px 0px 0px; 
     }
 .footer p {
-    padding: 80px 0px 0px 30px; 
+    padding: 0px 0px 0px 0px !important;
+    vertical-align: bottom !important;
     }
 .header1,
 .header2,
