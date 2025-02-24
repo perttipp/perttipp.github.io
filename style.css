@@ -44,7 +44,7 @@ a:visited {
     height: 350px;
     padding: 300px 0px 150px 0px;
     width: 100%;
-    height: auto !important;
+    1height: auto !important;;
     min-height: 350px;
     width: auto !important;
 }
