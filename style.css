@@ -1,19 +1,13 @@
 
 html {
-    max-width: 2000px;
+    max-width: 1200px;
     width: 100%; 
     margin: 0 auto;
     background-color: #e7ded9 ;
 }
-body {  
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
+body {      
     a:hover {
         color: hotpink;
-        
     }  
     
   Div {
@@ -21,19 +15,14 @@ body {
     color: black;
     border-style: solid;
     padding: 0px;
-    
 }
-
-
 p {
     color:#13292A;
     font-family: 'Lustria', sans-serif;
     font: Lustria; 
     padding: 100px 30px 50px 30px;
     margin: 30px;
-
 }
-
 a:link {
     color: #13292A;
 }
@@ -43,7 +32,6 @@ a:visited {
     text-decoration: none;   
   }
 .header1 {
-    !background-color: #ffffff;
     margin: 30px;
     background-image: url("picaa22.jpg");
     background-size: cover;
@@ -51,7 +39,6 @@ a:visited {
     background-repeat: no-repeat;
     height: 350px;
     padding: 300px 0px 150px 0px;
-
 }
 .header1 img {
     max-width: 50%;
@@ -61,10 +48,9 @@ a:visited {
     font-size: 35px;
     text-align: left;
     padding: 25px 0px 0px 150px;
-    
 }
 .header2 {
-    !background-color: #ffffff;
+    background-color: #ffffff;
     margin: 30px;
     padding: 0px 0px 0px 0px;
     background-image: url("metsa.jpg");
@@ -73,10 +59,7 @@ a:visited {
     font-size: 28px;
     text-align: left;
     padding: 25px 0px 0px 150px;
-    
-    
 }
-
 .linkit button {
         color: #ffffff;
         background-color: #13292a;
@@ -94,12 +77,10 @@ a:visited {
         height: auto;
         min-width: 15px;
         min-height: 15px;
-        align-items: center;
-        
+        align-items: center; 
     }
 .linkit button:hover {
-        color: #2d63c8;ASs
-        background-color: #ffffff;
+        color: #2d63c8;      
 }
 .linkit {
         display: flex;
@@ -108,7 +89,6 @@ a:visited {
         background-color: #ffffff;
         padding: 0px 0px 0px 0px;
 }
-
 .pictures {
     background-color: #e7ded9;
     margin: 30px;
@@ -118,7 +98,6 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .pdf img {
     max-width: 100%;
@@ -130,9 +109,7 @@ a:visited {
 .content {
     background-color: #e7ded9;
     margin: 30px;
-    
 }
-
 .form {
     background-color: #e7ded9;
     background-position: center;
@@ -151,13 +128,10 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .footer a {
-    padding: 0px 0px 0px 30px;
-    
+    padding: 0px 0px 0px 30px; 
     }
-
 .header1,
 .header2,
 .linkit,
