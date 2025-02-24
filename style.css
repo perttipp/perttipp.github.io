@@ -147,13 +147,12 @@ a:visited {
     margin: 30px;
     height: 150px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .footer a {
-    display: flex;
     padding: 0px 0px 0px 30px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     }
 
 .header1,
