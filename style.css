@@ -85,6 +85,8 @@ a:visited {
         margin: 25px;2
         display: flex;
         justify-content: flex-end;
+        max-width: 100%;
+        height: auto;
     }
 .linkit button:hover {
         color: #2d63c8;
