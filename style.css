@@ -85,7 +85,7 @@ a:visited {
         margin: 20px;2
         display: flex;
         justify-content: flex-end;
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
     }
 .linkit button:hover {
