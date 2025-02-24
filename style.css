@@ -87,6 +87,8 @@ a:visited {
         justify-content: flex-end;
         max-width: 80%;
         height: auto;
+        min-width: 15px;
+        min-height: 15px;
     }
 .linkit button:hover {
         color: #2d63c8;ASs
