@@ -135,6 +135,7 @@ a:visited {
 .footer p {
     padding: 0px 0px 0px 0px !important;
     vertical-align: bottom !important;
+    text-align: center;
     }
 .header1,
 .header2,
