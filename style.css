@@ -7,12 +7,9 @@ html {
     max-width: 1200px;
     width: 100%; 
     margin: 0 auto;
-    background-color: #e7ded9 ;
+    background-color: #e7ded9;
 }
 body {      
-    a:hover {
-        color: hotpink;
-    }  
     
   Div {
     border: 0.5px;
@@ -32,7 +29,7 @@ a:link {
 }
 a:visited {
     color: none;
-    background-color: none;
+    background-color: transparent;
     text-decoration: none;   
   }
 .header1 {
@@ -44,13 +41,11 @@ a:visited {
     height: 350px;
     padding: 300px 0px 150px 0px;
     width: 100%;
-    1height: auto !important;;
     min-height: 350px;
-    width: auto !important;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .header1 {
-        height: 10px;
+        height: 10px !important;
     }
 }
 .header1 img {
@@ -168,5 +163,4 @@ a:visited {
     margin: 0;
     padding: 0;
     }
-}
-}
+
