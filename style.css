@@ -41,18 +41,17 @@ a:visited {
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    1height: 350px;
+    height: 350px;
     padding: 300px 0px 150px 0px;
     width: 100%;
     height: auto !important;
     min-height: 350px;
-    1width: auto !important;
+    width: auto !important;
 }
-.header1 @media screen and (min-width: 480px) {
-        height: auto;
+@media screen and (min-width: 480px) {
+    .header1 {
+        height: 100px;
     }
-
-}
 .header1 img {
     max-width: 50%;
     height: auto;
@@ -169,4 +168,4 @@ a:visited {
     padding: 0;
     }
 }
-
+}
