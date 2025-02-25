@@ -217,7 +217,7 @@ a:visited {
     align-items: center;
     justify-content: center;
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
 .footer a {
