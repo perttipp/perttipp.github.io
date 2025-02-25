@@ -110,7 +110,7 @@ a:link {
     height: auto;
     border: 1px solid #13292A;
     border-style: solid;
-    
+
     }
 
 .content {
@@ -267,9 +267,7 @@ a:link {
         font-size: 16px;
         margin: 5px;
     }
-    .kiitos {
-       
-    }
+    
     .kiitos button { 
         font-size: 14px;
         padding: 9px 17px;
