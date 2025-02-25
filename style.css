@@ -245,7 +245,7 @@ a:visited {
         margin: 5px;
     }
     .kiitos {
-        height: auto;
+        height: 100vh;
     }
     .kiitos button { 
         font-size: 14px;
