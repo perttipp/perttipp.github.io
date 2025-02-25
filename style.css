@@ -148,24 +148,23 @@ a:visited {
     margin-bottom: 10px; /* Adds space between inputs */
     padding: 10px; /* Better spacing inside inputs */
     border: 1px solid #13292A; /* Adds a border */
-    border-radius: 5px; /* Slight rounding for aesthetics */
+    border-radius: 30px; /* Slight rounding for aesthetics */
     font-family: 'Lato', sans-serif;
     
 }
 .laheta {
     cursor: pointer;
     transition: 0.3s;
+    background-color: #13292A;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border-radius: 30px !important; /* Oltava important, jos muokkaa erikseen muista*/
 }
 .laheta:hover {
     color: #2d63c8 !important;
 }
-.laheta  {
-   background-color: #13292A;
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    border-radius: 30px
-}
+
 .kiitos {
     background-color: #e7ded9;
     font-family: 'Lato', sans-serif;
