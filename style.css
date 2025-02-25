@@ -189,7 +189,7 @@ a:visited {
 .kiitos h3 {
     font-size: 20px;  
     padding: 10px;
-    flex-direction: column;
+    1flex-direction: column;
 }
 
 .footer {
