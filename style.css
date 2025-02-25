@@ -187,11 +187,15 @@ a:visited {
     color: #2d63c8 !important;
 }
 .kiitos h3 {
-    font-size: 20px;  
+      
     padding: 10px;
-    1flex-direction: column;
-}
 
+}
+@media screen and (max-width: 480px) {
+    .kiitos h3 {
+        font-size: 11px;
+    }
+}
 .footer {
     background-color: #ffffff;
     height: 120px;
