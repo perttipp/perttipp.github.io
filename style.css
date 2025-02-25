@@ -239,7 +239,7 @@ a:visited {
         width: 85%;
     }    
 }
-@media screen and (min-width: 481px) and (max-width: 1370px) {
+@media screen and (min-width: 481px) and (max-width: 1365px) {
     .header1 {
         height: 120px;
     }
