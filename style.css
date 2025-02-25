@@ -131,6 +131,7 @@ a:visited {
 .content {
     background-color: #e7ded9;
     margin: 30px;
+
 }
 .form {
     background-color: #e7ded9;
@@ -217,8 +218,8 @@ a:visited {
     align-items: center;
     justify-content: center;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+
+    
 }
 .footer a {
     padding: 0px 0px 0px 0px; 
