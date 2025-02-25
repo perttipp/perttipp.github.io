@@ -11,7 +11,7 @@ html {
 }
 body {      
     
-  Div {
+  div {
     border: 1px;
     color: #13292A;
     border-style: solid;
@@ -22,18 +22,13 @@ body {
 p {
     color:#13292A;
     font-family: 'Lato', sans-serif;
-    font: Lato; 
     padding: 100px 30px 50px 30px;
     margin: 0px;
 }
 a:link {
     color: #13292A;
 }
-a:visited {
-    color: none;
-    background-color: transparent;
-    text-decoration: none;   
-  }
+
 .header1 {
     margin: 30px;
     background-image: url("picaa22.jpg");
@@ -106,17 +101,16 @@ a:visited {
 }
 .pdf {
     background-color:#ffffff;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
 .pdf img {
     max-width: 100%;
     height: auto;
-    border: 1px;
+    border: 1px solid #13292A;
     border-style: solid;
-    border-color: #13292A;
-    border-radius: 30px
+    
     }
 
 .content {
@@ -235,6 +229,35 @@ a:visited {
     height: auto;
     max-width: 90px;
     }
+  
+@media screen and (min-width: 481px) and (max-width: 1500px) {
+    .header1 {
+        height: 240px;
+    }
+    .linkit button {
+         padding: 10px 20px;
+        font-size: 18px;
+        margin: 5px;
+     }
+    .kiitos button { 
+         font-size: 16px;
+        padding: 10px 19px;
+    }
+    .kiitos h3 {
+        font-size: 14px;
+     }
+    
+    .form form {
+         width: 100%;
+    }
+    .emailtxt {
+         font-size: 16px;
+    }
+    .laheta { 
+         font-size: 20px;   
+    }
+} 
+
 @media screen and (max-width: 480px) {
     .header1 {
         height: 170px;
@@ -245,7 +268,7 @@ a:visited {
         margin: 5px;
     }
     .kiitos {
-        height: 60vh;
+       
     }
     .kiitos button { 
         font-size: 14px;
@@ -259,38 +282,10 @@ a:visited {
         width: 85%;
     }    
     .emailtxt  {
-        font-size: 12px;
+        font-size: 13px;
     }  
 }
-@media screen and (min-width: 481px) and (max-width: 1500px) {
-    .header1 {
-        height: 240px;
-    }
-    .linkit button {
-        padding: 10px 20px;
-        font-size: 18px;
-        margin: 5px;
-    }
-    .kiitos button { 
-        font-size: 16px;
-        padding: 10px 19px;
-    }
-    .kiitos h3 {
-        font-size: 14px;
-    }
-
-    .form form {
-        width: 100%;
-    }
-    .emailtxt {
-        font-size: 16px;
-    }
-    .laheta { 
-        font-size: 20px;
-       
-    }
-} 
-       
+   
 .header1,
 .header2,
 .linkit,
