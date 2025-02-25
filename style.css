@@ -90,9 +90,17 @@ a:visited {
         min-height: 15px;
         align-items: center;
         transition: 0.3s;
+        text-align: center;
     }
 .linkit button:hover {
         color: #2d63c8;      
+}
+@media screen and (max-width: 480px) {
+    .linkit button {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 5px;
+    }
 }
 .linkit {
         display: flex;
