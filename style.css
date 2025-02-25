@@ -168,13 +168,13 @@ a:visited {
     font-family: 'Lato', sans-serif;
     
 }
-.laheta {
+.laheta {       /*lähetä button*/
     cursor: pointer;
     transition: 0.3s;
     background-color: #13292A;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 30px !important; /* Oltava important, jos muokkaa erikseen muista*/
 }
 .laheta:hover {
@@ -276,7 +276,10 @@ a:visited {
     }
     .emailtxt {
         font-size: 16px;
-        
+    }
+    .laheta { 
+        font-size: 20px;
+       
     }
 } 
        
