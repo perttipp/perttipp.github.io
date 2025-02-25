@@ -122,18 +122,32 @@ a:visited {
 .content {
     background-color: #e7ded9;
     margin: 30px;
+}
+.maili {
+    text-align: center;
+    
+}
+.emailtxt { /*Sivun teksti*/
+    color:#13292A; 
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-bottom: -40px;
+}
+.email { /*osoite rivi*/
+    color:#13292A; 
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 0px 0px 0px 0px
 
 }
 .form {
     background-color: #e7ded9;
     background-position: center;
-    height: 700px;
+    height: 800px;
     display: flex;
     justify-content: center; /* Centers form horizontally */
-    align-items: center; /* Centers form elements vertically */
-    text-align: center; /* Ensures inline elements are centered */
     width: 100%;
-    
+    padding: 50px 0px 0px 0px
 }
 
 .form form {
@@ -208,9 +222,7 @@ a:visited {
     width: 100%;
 
 }
-.footer a {
-    padding: 0px 0px 0px 0px; 
-    }
+
 .footer p {
     padding: 10px 0px 0px 0px !important;
     }
@@ -238,14 +250,17 @@ a:visited {
     .form form {
         width: 85%;
     }    
+    .emailtxt p {
+        font-size: 12;
+    }  
 }
-@media screen and (min-width: 481px) and (max-width: 1370px) {
+@media screen and (min-width: 481px) and (max-width: 1500px) {
     .header1 {
         height: 240px;
     }
     .linkit button {
         padding: 10px 20px;
-        font-size: 1px;
+        font-size: 18px;
         margin: 5px;
     }
     .kiitos button { 
@@ -259,7 +274,12 @@ a:visited {
     .form form {
         width: 100%;
     }
-}        
+    .emailtxt {
+        font-size: 12;
+        
+    }
+} 
+       
 .header1,
 .header2,
 .linkit,
