@@ -239,13 +239,13 @@ a:visited {
         width: 85%;
     }    
 }
-@media screen and (min-width: 481px) and (max-width: 1025px) {
+@media screen and (min-width: 481px) and (max-width: 1370px) {
     .header1 {
         height: 120px;
     }
     .linkit button {
         padding: 10px 20px;
-        font-size: 18px;
+        font-size: 1px;
         margin: 5px;
     }
     .kiitos button { 
@@ -257,7 +257,7 @@ a:visited {
     }
 
     .form form {
-        width: 10%;
+        width: 100%;
     }
 }        
 .header1,
