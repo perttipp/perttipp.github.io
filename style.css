@@ -36,34 +36,32 @@ a:link {
 }
 
 .header1 {
+    display: flex;
+    justify-content: flex-start;  /* Align items to the left */
+    align-items: flex-start; /* Align items to the top */
+    flex-direction: row; /* Make elements sit next to each other */
     margin: 30px;
-    background-image: url("picaa22.jpg");
     background-size: cover;
-    background-position: center; 
+    background-image: linear-gradient(to left, #e7ded9, #13292A);
     background-repeat: no-repeat;
     height: 300px;
-    padding: 300px 0px 150px 0px;
+    padding: 0px;
     width: 100%;
 }
-
-.header1 img {
-    max-width: 50%;
-    height: auto;
-}
-
-.header1 h1 {
+.otsikko {
     font-size: 35px;
     text-align: left;
-    padding: 25px 0px 0px 150px;
 }
-.top-left {
-    position: absolute;
-    top: -80px;
-    left: 200px;
-    bottom: 0px;
-    color: red;
-    font-size: 30px;
-    margin: 30;
+.alaotsikko {
+    font-size: 35px;
+    text-align: left;
+}
+.picotsikko  {
+    width: 320px;
+    height: 300px;
+    align-self: flex-start; /* Moves it to the top-left inside flexbox */
+    margin-left: 0; /* Ensures it's fully left */
+    display: block;
 
 }
 
