@@ -18,7 +18,9 @@ body {
     padding: 0px;
     border-top: transparent;
     border-bottom: transparent;
+    }
 }
+
 p {
     color:#13292A;
     font-family: 'Lato', sans-serif;
@@ -62,38 +64,38 @@ a:link {
     padding: 25px 0px 0px 150px;
 }
 .linkit button {
-        color: #ffffff;
-        background-color: #13292a;
-        font-size: 21px;
-        font-family: 'Lustria', sans-serif;
-        border: 0px solid #2d63c8;
-        border-radius: 30px;
-        padding: 12px 23px;
-        letter-spacing: 2px;
-        cursor: pointer;
-        margin: 10px;
-        display: flex;
-        justify-content: flex-end;
-        max-width: 80%;
-        height: auto;
-        min-width: 15px;
-        min-height: 15px;
-        align-items: center;
-        transition: 0.3s;
-        text-align: center;
+    color: #ffffff;
+    background-color: #13292a;
+    font-size: 21px;
+    font-family: 'Lustria', sans-serif;
+    border: 0px solid #2d63c8;
+    border-radius: 30px;
+    padding: 12px 23px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 80%;
+    height: auto;
+    min-width: 15px;
+    min-height: 15px;
+    align-items: center;
+    transition: 0.3s;
+    text-align: center;
     }
 .linkit button:hover {
         color: #2d63c8;      
 }
 
 .linkit {
-        display: flex;
-        justify-content: flex-end;
-        margin: 30px;
-        background-color: #e7ded9;
-        padding: 0px 0px 0px 0px;
-        width: 100%;
-        height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    background-color: #e7ded9;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: auto;
 }
 .pictures {
     background-color: #e7ded9;
@@ -172,7 +174,7 @@ a:link {
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
-    border-radius: 30px !important; /* Oltava important, jos muokkaa erikseen muista*/
+    border-radius: 30px !important; /* Oltava important, jos muokkaa erikseen .form */
 }
 .laheta:hover {
     color: #2d63c8 !important;
@@ -185,11 +187,10 @@ a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
-    padding-top: 80px !important;
-    
+    height: 1800px;
     padding: 50px 0px 100px 0px !important;
 }
+
 .kiitos button { 
     background-color: #13292A;
     color:#ffffff;
@@ -271,6 +272,7 @@ a:link {
     .kiitos button { 
         font-size: 14px;
         padding: 9px 17px;
+        background-color: #d11721;
     }
     .kiitos h3 {
         font-size: 12px;
@@ -295,4 +297,3 @@ a:link {
     margin: 0;
     padding: 0;
     }
-}
