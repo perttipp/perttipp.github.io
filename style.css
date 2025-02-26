@@ -90,7 +90,7 @@ a:link {
     width: 20%;
     padding-right: 20px;
     object-fit: cover;
-    
+
 }
 
 
@@ -124,7 +124,7 @@ a:link {
     justify-content: flex-end;
     margin: 30px;
     background-color: #e7ded9;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 0px;
     width: 100%;
     height: auto;
 }
@@ -294,7 +294,7 @@ textarea::placeholder {
     max-width: 90px;
     }
   
-@media screen and (min-width: 1001px) and (max-width: 1500px) {
+@media screen and (min-width: 601px) and (max-width: 1500px) {
     .header1 {
         height: 240px;
     }
@@ -323,7 +323,7 @@ textarea::placeholder {
     }
 } 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .header1 {
         height: 170px;
     }
