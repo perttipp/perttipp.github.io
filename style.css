@@ -165,8 +165,13 @@ a:link {
     border: 1px solid #13292A; /* Adds a border */
     border-radius: 30px; /* Slight rounding for aesthetics */
     font-family: 'Lato', sans-serif;
-    
+
 }
+input::placeholder,     /* Lomakkeen otsikkojen väri*/
+textarea::placeholder {
+    color: #13292A;
+}
+
 .laheta {       /*lähetä button*/
     cursor: pointer;
     transition: 0.3s;
@@ -286,7 +291,7 @@ a:link {
         font-size: 13px;
     }  
 }
-   
+
 .header1,
 .header2,
 .linkit,
