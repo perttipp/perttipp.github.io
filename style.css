@@ -139,7 +139,7 @@ a:link {
 .form {
     background-color: #e7ded9;
     background-position: center;
-    height: 800px;
+    height: 1000px;
     display: flex;
     justify-content: center; /* Centers form horizontally */
     width: 100%;
@@ -187,7 +187,7 @@ a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1800px;
+    height: 1000px;
     padding: 50px 0px 100px 0px !important;
 }
 
@@ -236,26 +236,27 @@ a:link {
         height: 240px;
     }
     .linkit button {
-         padding: 10px 20px;
+        padding: 10px 20px;
         font-size: 18px;
         margin: 5px;
      }
     .kiitos button { 
-         font-size: 16px;
+        font-size: 16px;
         padding: 10px 19px;
+        background-color: #5217d1;
     }
     .kiitos h3 {
         font-size: 14px;
      }
     
     .form form {
-         width: 100%;
+        width: 100%;
     }
     .emailtxt {
-         font-size: 16px;
+        font-size: 16px;
     }
     .laheta { 
-         font-size: 20px;   
+        font-size: 20px;   
     }
 } 
 
