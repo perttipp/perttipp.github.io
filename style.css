@@ -90,20 +90,10 @@ a:link {
     width: 20%;
     padding-right: 20px;
     object-fit: cover;
-
+    
 }
 
-.header2 {
-    background-color: #ffffff;
-    margin: 30px;
-    padding: 0px 0px 0px 0px;
-    background-image: url("metsa.jpg");
-}
-.header2 h2 {
-    font-size: 28px;
-    text-align: left;
-    padding: 25px 0px 0px 150px;
-}
+
 .linkit button {
     color: #ffffff;
     background-color: #13292a;
