@@ -1,5 +1,8 @@
 
 * {
+    
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&display=swap');
+    
     margin: 0;
     box-sizing: border-box;
   }
@@ -11,14 +14,14 @@ html {
 }
 body {      
     
-  div {
+
     border: 1px;
     color: #13292A;
     border-style: solid;
     padding: 0px;
     border-top: transparent;
     border-bottom: transparent;
-    }
+
 }
 
 p {
@@ -67,7 +70,7 @@ a:link {
     color: #ffffff;
     background-color: #13292a;
     font-size: 21px;
-    font-family: 'Lustria', sans-serif;
+    font-family: "Lustria", serif;
     border: 0px solid #2d63c8;
     border-radius: 30px;
     padding: 12px 23px;
@@ -125,7 +128,8 @@ a:link {
 }
 .emailtxt { /*Sivun teksti*/
     color:#13292A; 
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", serif;
+    font-weight: 400;
     font-size: 20px;
     margin-bottom: -40px;
 }
@@ -164,7 +168,8 @@ a:link {
     padding: 10px; /* Better spacing inside inputs */
     border: 1px solid #13292A; /* Adds a border */
     border-radius: 30px; /* Slight rounding for aesthetics */
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", serif;
+    font-weight: 400;
 
 }
 input::placeholder,     /* Lomakkeen otsikkojen väri*/
@@ -177,7 +182,8 @@ textarea::placeholder {
     transition: 0.3s;
     background-color: #13292A;
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", serif;
+    font-weight: 400;
     font-size: 25px;
     border-radius: 30px !important; /* Oltava important, jos muokkaa erikseen .form */
 }
@@ -187,7 +193,8 @@ textarea::placeholder {
 
 .kiitos {
     background-color: #e7ded9;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", serif;
+    font-weight: 400;
     margin: 30px;
     display: flex;
     flex-direction: column;
@@ -199,7 +206,8 @@ textarea::placeholder {
 .kiitos button { 
     background-color: #13292A;
     color:#ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", serif;
+    font-weight: 400;
     font-size: 20px;
     padding: 15px 28px;
     margin-top: 40px;
