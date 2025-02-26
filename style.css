@@ -51,18 +51,23 @@ a:link {
 .otsikko {
     font-size: 35px;
     text-align: left;
+    padding-top: 30px;
+    padding-left: 0px;
+    color: #ffffff;
 }
 .alaotsikko {
-    font-size: 35px;
-    text-align: left;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 170px;
+    padding-left: 0px;
+    padding-top: 100px;
+    color: #ffffff;
 }
 .picotsikko  {
     width: 320px;
     height: 300px;
-    align-self: flex-start; /* Moves it to the top-left inside flexbox */
-    margin-left: 0; /* Ensures it's fully left */
-    display: block;
-
+    text-align: left;
+    padding-right: 0px;
 }
 
 .header2 {
@@ -129,7 +134,7 @@ a:link {
   .column img {
     width:620px;
     height:400px;
-    
+    border-radius: 30px;
  }
   
 
