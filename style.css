@@ -352,6 +352,14 @@ textarea::placeholder {
         float: none;  /*1 column pienellä näytöllä*/
         width: 100%; 
     }
+    .picotsikko {
+        width: 50%;
+    }
+    .otsikko {
+        font-size: 25px;
+    }
+    .alaotsikko {
+        font-size: 20px;
 }
 
 .header1,
