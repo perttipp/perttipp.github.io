@@ -302,8 +302,8 @@ textarea::placeholder {
         height: 170px;
     }
     .linkit button {
-        padding: 9px 18px;
-        font-size: 16px;
+        padding: 12px 23px;
+        font-size: 20px;
         margin: 5px;
     }
     
@@ -313,14 +313,14 @@ textarea::placeholder {
         background-color: #d11721;
     }
     .kiitos h3 {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .form form {
         width: 85%;
     }    
     .emailtxt  {
-        font-size: 13px;
+        font-size: 15px;
     }  
     .column {
         float: none;  /*1 column pienellä näytöllä*/
