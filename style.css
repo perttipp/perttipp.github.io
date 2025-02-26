@@ -26,7 +26,8 @@ body {
 
 p {
     color:#13292A;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", serif;
+    font-weight: 400;
     padding: 100px 30px 50px 30px;
     margin: 0px;
 }
