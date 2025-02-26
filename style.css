@@ -107,7 +107,7 @@ a:link {
 }
 
 .column {
-    float: left;
+    
     width: 50%;
     text-align: center;
  }
@@ -283,14 +283,14 @@ textarea::placeholder {
         background-color: #5217d1;
     }
     .kiitos h3 {
-        font-size: 14px;
+        font-size: 18px;
      }
     
     .form form {
         width: 100%;
     }
     .emailtxt {
-        font-size: 16px;
+        font-size: 18px;
     }
     .laheta { 
         font-size: 20px;   
