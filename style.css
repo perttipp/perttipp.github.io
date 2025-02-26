@@ -107,7 +107,6 @@ a:link {
 }
 
 .column {
-    
     width: 50%;
     text-align: center;
  }
@@ -121,8 +120,7 @@ a:link {
   .column img {
     width:620px;
     height:400px;
-    height: auto; 
-    max-width: 100%;
+    
  }
   
 
