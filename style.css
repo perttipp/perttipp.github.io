@@ -121,9 +121,10 @@ a:link {
   .column img {
     width:620px;
     height:400px;
-    
-
-  }
+    height: auto; 
+    max-width: 100%;
+ }
+  
 
 .pdf {
     background-color:#ffffff;
