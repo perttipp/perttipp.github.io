@@ -268,7 +268,7 @@ textarea::placeholder {
 }
 .kiitos h3 {
       
-    padding: 10px;
+    padding: 12px;
 
 }
 
@@ -318,6 +318,15 @@ textarea::placeholder {
     }
     .laheta { 
         font-size: 20px;   
+    }
+    .picotsikko {
+        width: 30%;
+    }
+    .otsikko {
+        font-size: 25px;
+    }
+    .alaotsikko {
+        font-size: 20px;
     }
     .column img {
         width:470px;
