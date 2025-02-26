@@ -321,7 +321,11 @@ textarea::placeholder {
     .laheta { 
         font-size: 20px;   
     }
-} 
+    .column img {
+        width:520px;
+        height:350px;
+    } 
+}
 
 @media screen and (max-width: 600px) {
     .header1 {
@@ -360,6 +364,11 @@ textarea::placeholder {
     }
     .alaotsikko {
         font-size: 20px;
+    }
+    .column img {
+        width:500px;
+        height:320px;
+    }
 }
 
 .header1,
