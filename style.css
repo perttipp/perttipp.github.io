@@ -101,10 +101,30 @@ a:link {
     width: 100%;
     height: auto;
 }
-.pictures {
-    background-color: #e7ded9;
-    margin: 30px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+ }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column img {
+    width:620px;
+    height:400px;
+    
+
+  }
+
 .pdf {
     background-color:#ffffff;
     align-items: center;
@@ -121,7 +141,8 @@ a:link {
 
 .content {
     background-color: #e7ded9;
-    margin: 30px;
+    margin: 0px;
+    
 }
 .maili {
     text-align: center;
@@ -240,6 +261,7 @@ textarea::placeholder {
 .footer p {
     padding: 10px 0px 0px 0px !important;
     }
+
 .footer img {
     height: auto;
     max-width: 90px;
@@ -299,12 +321,15 @@ textarea::placeholder {
     .emailtxt  {
         font-size: 13px;
     }  
+    .column {
+        float: none;  /*1 column pienellä näytöllä*/
+        width: 100%; 
+    }
 }
 
 .header1,
 .header2,
 .linkit,
-.pictures,
 .content,
 .footer,
 .kiitos,
