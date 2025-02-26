@@ -164,7 +164,7 @@ a:link {
 .form {
     background-color: #e7ded9;
     background-position: center;
-    height: 1000px;
+    height: 900px;
     display: flex;
     justify-content: center; /* Centers form horizontally */
     width: 100%;
