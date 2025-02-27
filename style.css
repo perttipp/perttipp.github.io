@@ -31,9 +31,6 @@ p {
     padding: 100px 30px 50px 30px;
     
 }
-a:link {
-    color: #13292A;
-}
 
 .header1 {
     display: flex;
@@ -50,15 +47,16 @@ a:link {
 
 .picotsikko {   /* Otsikon kuva */
     width: 22%; /* Set a fixed width for the image */
-    margin-right: 20px; /* Space between image and text */
-    object-fit: cover; /* Ensure image scales properly */
+    height: auto;
+    object-fit: cover;
+    
 }
 
 .text-container {
     display: flex;
     flex-direction: column; /* Stack name and title vertically */
     justify-content: flex-start; /* Align text to the top */
-    max-width: 60%; /* Prevent text from stretching too far */
+    max-width: 50%; /* Prevent text from stretching too far */
     overflow: hidden; /* Ensures text stays within the div */
 }
 
@@ -341,6 +339,12 @@ textarea::placeholder {
     }
     .picotsikko {   /* Otsikon kuva */
         width: 19%;
+    }
+    .otsikko {
+        font-size: 25px;
+    }
+    .alaotsikko {
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 750px) {
