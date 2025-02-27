@@ -48,9 +48,8 @@ a:link {
     overflow: hidden; /* Prevent text from spilling out */
 }
 
-.picotsikko {
-    width: 150px; /* Set a fixed width for the image */
-    1height: auto; /* Maintain aspect ratio */
+.picotsikko {   /* Otsikon kuva */
+    width: 22%; /* Set a fixed width for the image */
     margin-right: 20px; /* Space between image and text */
     object-fit: cover; /* Ensure image scales properly */
 }
@@ -74,24 +73,23 @@ a:link {
 }
 
 .alaotsikko {
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Lustria", serif;
     padding-top: 5px;
     margin: 0;
     padding-left: 5px;
     color: #ffffff;
-    
 
 }
     
-.picotsikko {
-    width: 20%;
-    padding-right: 20px;
-    object-fit: cover;
-
+.kuvaotsikot {
+    font-size: 20px;
+    font-family: "Lustria", serif;
+    padding-left: 20px;
+    color: #13292a;
+    padding-bottom: 5px;
+    padding-top: 40px;
 }
-
-
 .linkit button {
     color: #ffffff;
     background-color: #13292a;
@@ -113,6 +111,7 @@ a:link {
     transition: 0.3s;
     text-align: center;
     }
+
 .linkit button:hover {
     color: #2d63c8;      
 }
@@ -362,7 +361,7 @@ textarea::placeholder {
         width: 100%; 
     }
     .picotsikko {
-        width: 50%;
+        width: 60%;
     }
     .otsikko {
         font-size: 25px;
