@@ -29,7 +29,17 @@ p {
     font-family: "Lato", serif;
     font-weight: 400;
     padding: 100px 30px 50px 30px;
-    
+
+}
+.content p {
+    color:#2a1313;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    text-align: justify
+    margin: 0px;
+    padding: 11px;
 }
 
 .header1 {
