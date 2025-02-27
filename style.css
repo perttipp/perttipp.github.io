@@ -332,15 +332,15 @@ textarea::placeholder {
 }
 @media screen and (min-width: 600px) and (max-width: 980px) {
     .column img {
-        width:370px;
-        height:250px;
+        width:350px;
+        height:230px;
     }
     .linkit button {
         padding: 12px 22px;
         font-size: 100px;
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .header1 {
         height: 170px;
     }
