@@ -295,7 +295,7 @@ textarea::placeholder {
     }
     .linkit button {
         padding: 12px 22px;
-        font-size: 18px;
+        font-size: 22px;
         margin: 10px;
      }
     .kiitos button { 
@@ -330,14 +330,20 @@ textarea::placeholder {
         height:300px;
     } 
 }
-@media screen and (min-width: 600px) and (max-width: 980px) {
+@media screen and (min-width: 751px) and (max-width: 980px) {
     .column img {
         width:350px;
         height:230px;
     }
     .linkit button {
         padding: 12px 22px;
-        font-size: 100px;
+        font-size: 18px;
+    }
+    .header1 {
+        height: 170px;
+    }
+    .picotsikko {   /* Otsikon kuva */
+        width: 19%;
     }
 }
 @media screen and (max-width: 750px) {
@@ -346,7 +352,7 @@ textarea::placeholder {
     }
     .linkit button {
         padding: 12px 23px;
-        font-size: 20px;
+        font-size: 18px;
         margin: 8px;
     }
     
@@ -397,7 +403,7 @@ textarea::placeholder {
     }
     .linkit button {
         padding: 9px 18px;
-        font-size: 20px;
+        font-size: 17px;
         margin: 8px;
     }
 }
@@ -408,10 +414,11 @@ textarea::placeholder {
     }
     .linkit button {
         padding: 6px 14px;
-        font-size: 18px;
+        font-size: 16px;
         margin: 8px;
     }
     .linkit {
     padding-right: 1px;
     }
+}
 }
