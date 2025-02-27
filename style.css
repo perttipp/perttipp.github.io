@@ -375,4 +375,21 @@ textarea::placeholder {
     }
 }
 
-
+@media screen and (max-width: 480px) {
+    .column img {
+        width:300px;
+        height:200px;
+        border-radius: 30px;
+    }     
+    .otsikko {
+        font-size: 25px;
+    }
+    .alaotsikko {
+        font-size: 15px;
+    }
+    .linkit button {
+        padding: 9px 18px;
+        font-size: 20px;
+        margin: 8px;
+    }
+}
