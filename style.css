@@ -1,27 +1,33 @@
-
 * {
     
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&display=swap');
     
-    margin: 0px;
-    margin-top: 0px; 
-    margin-bottom: 0px;
     box-sizing: border-box;
   }
+
+  html, body {
+    margin: 10;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
 html {
     max-width: 1300px;
-    width: 100%; 
+    background-color: #e7ded9; 
     margin: 0 auto;
-    background-color: #e7ded9;
 }
-body {      
-    
 
+
+body {      
     border: 1px;
     color: #13292A;
     border-style: solid;
     border-top: transparent;
     border-bottom: transparent;
+    box-sizing: border-box;
 }
 
 p {
@@ -37,12 +43,12 @@ p {
     font-weight: 400;
     margin-bottom: 0px;
     line-height: 1.5;
-    text-align: justify
+    text-align: left;
     margin: 0px;
-    padding: 11px;
+    padding: 10px;
     padding-bottom: 20px;
     font-size: 15px;
-
+    
 }
 
 
@@ -56,22 +62,23 @@ p {
     height: 300px;
     padding: 20px; /* Add padding to prevent content from touching edges */
     width: 100%;
-    overflow: hidden; /* Prevent text from spilling out */
+    overflow: hidden;
+    justify-content: flex-start;/* Prevent text fromjustify-content: flex-start; spilling out */
 }
 
 .picotsikko {   /* Otsikon kuva */
     width: 22%; /* Set a fixed width for the image */
     height: auto;
-    object-fit: cover;
+    
     
 }
 
 .text-container {
     display: flex;
     flex-direction: column; /* Stack name and title vertically */
-    justify-content: flex-start; /* Align text to the top */
     max-width: 50%; /* Prevent text from stretching too far */
     overflow: hidden; /* Ensures text stays within the div */
+    
 }
 
 .otsikko {
@@ -101,7 +108,9 @@ p {
     color: #13292a;
     padding-bottom: 5px;
     padding-top: 40px;
+    
 }
+
 .linkit button {
     color: #ffffff;
     background-color: #13292a;
@@ -136,11 +145,13 @@ p {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .column {
     width: 50%;
     text-align: center;
+    
  }
 
 .row:after {
@@ -153,6 +164,7 @@ p {
     width:620px;
     height:400px;
     border-radius: 30px;
+    object-fit: cover;
     
  }
   
@@ -273,7 +285,6 @@ textarea::placeholder {
     color: #2d63c8 !important;
 }
 .kiitos h3 {
-      
     padding: 12px;
 
 }
@@ -298,7 +309,7 @@ textarea::placeholder {
     max-width: 90px;
     }
   
-@media screen and (min-width: 981px) and (max-width: 1400px) {
+@media screen and (min-width: 980px) and (max-width: 1400px) {
     .header1 {
         height: 240px;
     }
