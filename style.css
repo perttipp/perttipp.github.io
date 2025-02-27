@@ -317,7 +317,7 @@ textarea::placeholder {
         font-size: 20px;   
     }
     .picotsikko {
-       
+        width: 19%;
     }
     .otsikko {
         font-size: 25px;
@@ -376,7 +376,7 @@ textarea::placeholder {
         width: 100%; 
     }
     .picotsikko {
-        width: 30%;
+        width: 25%;
     }
     .otsikko {
         font-size: 25px;
@@ -420,5 +420,4 @@ textarea::placeholder {
     .linkit {
     padding-right: 1px;
     }
-}
 }
