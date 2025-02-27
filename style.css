@@ -32,7 +32,7 @@ p {
 
 }
 .content p {
-    color:#2a1313;
+    color:#13292A;
     font-family: "Lato", serif;
     font-weight: 400;
     margin-bottom: 0px;
@@ -40,7 +40,11 @@ p {
     text-align: justify
     margin: 0px;
     padding: 11px;
+    padding-bottom: 20px;
+    font-size: 15px;
+
 }
+
 
 .header1 {
     display: flex;
