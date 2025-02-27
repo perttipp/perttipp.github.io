@@ -396,5 +396,13 @@ textarea::placeholder {
     .column img {
         width: 280px;
         height: 180px;
+    }
+    .linkit button {
+        padding: 6px 14px;
+        font-size: 18px;
+        margin: 8px;
 }
+.linkit {
+    padding-right: 1px;
+    }
 }
