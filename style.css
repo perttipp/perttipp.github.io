@@ -114,17 +114,16 @@ a:link {
     text-align: center;
     }
 .linkit button:hover {
-        color: #2d63c8;      
+    color: #2d63c8;      
 }
 
 .linkit {
     display: flex;
     justify-content: flex-end;
-    margin: 30px;
     background-color: #e7ded9;
-    padding: 0px 20px 0px 0px;
-    width: 100%;
+    width: 95%;
     height: auto;
+
 }
 .row {
     display: flex;
@@ -299,7 +298,7 @@ textarea::placeholder {
     .linkit button {
         padding: 10px 20px;
         font-size: 18px;
-        margin: 5px;
+        margin: 10px;
      }
     .kiitos button { 
         font-size: 16px;
@@ -341,7 +340,7 @@ textarea::placeholder {
     .linkit button {
         padding: 12px 23px;
         font-size: 20px;
-        margin: 5px;
+        margin: 8px;
     }
     
     .kiitos button { 
