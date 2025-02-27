@@ -388,6 +388,9 @@ textarea::placeholder {
         width:440px;
         height:260px;
     }
+    .kuvaotsikot {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 480px) {
