@@ -289,7 +289,7 @@ textarea::placeholder {
     max-width: 90px;
     }
   
-@media screen and (min-width: 801px) and (max-width: 1400px) {
+@media screen and (min-width: 981px) and (max-width: 1400px) {
     .header1 {
         height: 240px;
     }
