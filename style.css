@@ -377,13 +377,4 @@ textarea::placeholder {
     }
 }
 
-.header1,
-.header2,
-.linkit,
-.content,
-.footer,
-.kiitos,
-.pdf {
-    margin: 0;
-    padding: 0;
-    }
+
