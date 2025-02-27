@@ -377,9 +377,8 @@ textarea::placeholder {
 
 @media screen and (max-width: 480px) {
     .column img {
-        width:300px;
-        height:200px;
-        border-radius: 30px;
+        width:320px;
+        height:220px;
     }     
     .otsikko {
         font-size: 25px;
