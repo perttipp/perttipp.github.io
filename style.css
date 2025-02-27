@@ -121,9 +121,9 @@ a:link {
     display: flex;
     justify-content: flex-end;
     background-color: #e7ded9;
-    width: 95%;
+    width: 100%;
     height: auto;
-
+    padding-right: 45px;
 }
 .row {
     display: flex;
