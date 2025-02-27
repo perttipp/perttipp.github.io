@@ -392,3 +392,9 @@ textarea::placeholder {
         margin: 8px;
     }
 }
+@media screen and (max-width: 350px) {
+    .column img {
+        width: 280px;
+        height: 180px;
+}
+}
