@@ -6,13 +6,15 @@
   }
 
   html, body {
-    margin: 8px;
+    margin: 15px;
     padding: 0px;
     width: 100%;
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
     max-width: 1300px;
+    overflow-x: hidden;
+    
   }
   
 html {
@@ -28,7 +30,6 @@ body {
     border-style: solid;
     border-top: transparent;
     border-bottom: transparent;
-    box-sizing: border-box;
 }
 
 p {
