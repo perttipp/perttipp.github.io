@@ -433,8 +433,8 @@ textarea::placeholder {
         font-size: 15px;
     }
     .linkit button {
-        padding: 9px 18px;
-        font-size: 17px;
+        padding: 8px 17px;
+        font-size: 16px;
         margin: 8px;
     }
 }
@@ -444,8 +444,8 @@ textarea::placeholder {
         height: 180px;
     }
     .linkit button {
-        padding: 6px 14px;
-        font-size: 36px;
+        padding: 5px 11px;
+        font-size: 13px;
         margin: 8px;
     }
     .linkit {
