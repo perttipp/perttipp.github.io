@@ -151,7 +151,8 @@ p {
 .column {
     width: 50%;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 25px;
  }
 
 .row:after {
