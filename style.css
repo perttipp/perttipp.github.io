@@ -1,26 +1,23 @@
 * {
     
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&display=swap');
-    
+    1outline: 1px solid red; 
     box-sizing: border-box;
   }
 
   html, body {
-    margin: 0px;
-    padding: 10px;
-    width: 100%;
+    margin: 10px;
+    width: 99.5%;
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
     max-width: 1300px;
-    overflow-x: hidden;
-
+    margin: 0 auto;
   }
   
 html {
     background-color: #e7ded9; 
-    margin: 0 auto;
-}
+    
 
 
 body {      
@@ -30,7 +27,6 @@ body {
     border-style: solid;
     border-top: transparent;
     border-bottom: transparent;
-    margin: 0;
     
 }
 
@@ -48,7 +44,7 @@ p {
     margin-bottom: 0px;
     line-height: 1.5;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 12px;
     margin-right: 12px;
     padding: 1px;
     padding-bottom: 30px;
@@ -68,8 +64,7 @@ p {
     height: 300px;
     padding: 20px; /* Add padding to prevent content from touching edges */
     width: 100%;
-    overflow: hidden;
-    justify-content: flex-start;/* Prevent text fromjustify-content: flex-start; spilling out */
+    
 }
 
 .picotsikko {   /* Otsikon kuva */
@@ -114,7 +109,7 @@ p {
     color: #13292a;
     padding-bottom: 1px;
     padding-top: 40px;
-    margin-bottom: 1px !important;
+    margin-bottom: 1px;
     
 }
 
@@ -311,7 +306,8 @@ textarea::placeholder {
 }
 
 .footer p {
-    padding: 10px 0px 0px 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
     }
 
 .footer img {
