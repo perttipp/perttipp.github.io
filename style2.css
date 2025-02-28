@@ -1,7 +1,7 @@
 * {
     
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&display=swap');
-    1outline: 1px solid red; 
+
     box-sizing: border-box;
   }
 
@@ -62,13 +62,18 @@ p {
     padding: 20px; /* Add padding to prevent content from touching edges */
     width: 100%;
     
+    
 }
     
-.picotsikko {
-    width: 22%;
+.picotsikko a {
+    width: 2;
     height: auto;
 }
+.picotsikko img {
+    width: 200px;
+    
 
+}
 .text-container {
     display: flex;
     flex-direction: column; /* Stack name and title vertically */
@@ -80,20 +85,24 @@ p {
 .otsikko {
     font-size: 35px;
     font-family: "Lustria", serif;
-    padding-left: 5px;
+    padding-left: 350px;
     color: #ffffff;
     padding-bottom: 0px;
-    padding-top: 10px;
-    
+    padding-top: 0px;
+    padding-left: 28px;
+    width: auto;
+   
 }
 
 .alaotsikko {
     font-size: 25px;
     font-family: "Lustria", serif;
     padding-top: 0px;
-    margin: 0;
-    padding-left: 10px;
+    margin: 2px;
+    padding-left: 30px;
     color: #ffffff;
+    width: auto;
+
 
 }
     
@@ -456,5 +465,5 @@ textarea::placeholder {
     }
     .alaotsikko {
         font-size: 13px;
-    }
 }
+

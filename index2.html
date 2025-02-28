@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <title>Ota Yhteyttä</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+
+    <div class="header1">
+       <a class="picotsikko" href="index2.html"><img src="picheader.png" alt="Profile Image"></a>
+        <div class="text-container">
+        <p class="otsikko">Pertti Paananen</p>
+        <p class="alaotsikko">Prosessioperaattori</p>
+        </div>
+    </div>
+
+    <div class="linkit">
+        <button class="button" type="button" onclick="document.location='index.html'">Etusivu</button>
+        <button class="button" type="button" onclick="document.location='cv.html'">CV</button>   
+    </div>
+
+    <div class="maili">
+        <p class="emailtxt">Saat minuun yhteyden käyttämällä oheista sähköposti lomaketta tai email osoitetta.</p>
+        <a class="email" href= "mailto:name@email.com">apoxvaan@gmail.com</a>
+    </div>
+
+    <div class="form">
+        <form target="_blank" action="https://formsubmit.co/apoxvaan@gmail.com" method="POST">
+        <input placeholder="Etu- ja sukunimi" style="color:#13292A;" name="name" required>
+        <input type="tel" name="phone" style="color:#13292A;" placeholder="Puhelinnumero">
+        <input type="email" style="color: #13292A;" placeholder="Sähköpostiosoite" autocomplete="email" required name="email"> 
+        <textarea placeholder="Sinun viestisi" style="color:#13292A; height: 180px" name="message" required></textarea> 
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://perttipp.github.io/kiitos">
+        <input type="submit" value="Lähetä" class="laheta">
+        </form>
+    </div>
+    
+    <div class="footer">
+        <a href="https://www.linkedin.com/in/pertti-paananen/" target="_blank">
+        <img src="Linked22.jpg" alt="My linkedin page"></a> 
+        <p>Copyright © Pertti Paananen 2025</p>  
+    </div>
+
+</body>
+
+</html>
