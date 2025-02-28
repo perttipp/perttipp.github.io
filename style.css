@@ -387,8 +387,8 @@ textarea::placeholder {
     }
     
     .kiitos button { 
-        font-size: 14px;
-        padding: 9px 17px;
+        font-size: 16px;
+        padding: 10px 18px;
         background-color: #13292A;
     }
     .kiitos h3 {
