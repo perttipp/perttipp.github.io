@@ -6,7 +6,7 @@
   }
 
   html, body {
-    margin: 15px;
+    margin: 10px;
     padding: 0px;
     width: 100%;
     align-items: center;
@@ -14,7 +14,7 @@
     margin-bottom: 0px;
     max-width: 1300px;
     overflow-x: hidden;
-    
+
   }
   
 html {
@@ -30,6 +30,8 @@ body {
     border-style: solid;
     border-top: transparent;
     border-bottom: transparent;
+    margin: 0;
+    
 }
 
 p {
@@ -46,7 +48,7 @@ p {
     margin-bottom: 0px;
     line-height: 1.5;
     text-align: left;
-    margin-left: 12px;
+    margin-left: 15px;
     margin-right: 12px;
     padding: 1px;
     padding-bottom: 30px;
@@ -108,7 +110,7 @@ p {
 .kuvaotsikot {
     font-size: 20px;
     font-family: "Lustria", serif;
-    padding-left: 12px;
+    padding-left: 15px;
     color: #13292a;
     padding-bottom: 1px;
     padding-top: 40px;
@@ -142,6 +144,7 @@ p {
 .linkit {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     background-color: #e7ded9;
     width: 100%;
     height: auto;
