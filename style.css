@@ -6,23 +6,25 @@
   }
 
   html, body {
-    margin: 15;
+    margin: 0;
     padding: 0px;
     width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    position: ;
+    max-width: 1300px;
   }
   
 html {
-    max-width: 1300px;
     background-color: #e7ded9; 
     margin: 0 auto;
 }
 
 
 body {      
+    max-width: 1300px;
     border: 1px;
     color: #13292A;
     border-style: solid;
