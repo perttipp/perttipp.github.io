@@ -6,7 +6,7 @@
   }
 
   html, body {
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
     width: 100%;
     align-items: center;
@@ -48,7 +48,7 @@ p {
     margin-left: 12px;
     margin-right: 12px;
     padding: 1px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-size: 14px;
     margin-top: 0px;
     
@@ -155,7 +155,7 @@ p {
 .column {
     width: 50%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
  }
 
 .row:after {
