@@ -408,7 +408,7 @@ footer img {
         font-size: 16px;
     }
     li {
-        float: center;
+        float: none;
     }
 }
 
