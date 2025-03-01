@@ -286,7 +286,7 @@ textarea::placeholder {
     color: #2d63c8 !important;
 }
 .kiitos h3 {
-    padding: 12px;
+    padding: 9px;
 
 }
 
@@ -364,8 +364,11 @@ footer img {
     .alaotsikko {
         font-size: 20px;
     }
+    .column {
+        float: none;  /*1 column pienellä näytöllä*/
+        width: 100%;
+    }
 }
-
 @media screen and (max-width: 750px) {
     header {
         height: 170px;
