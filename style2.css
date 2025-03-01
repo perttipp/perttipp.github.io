@@ -62,38 +62,7 @@ header {
     padding: 20px; /* Add padding to prevent content from touching edges */
     width: 100%;
     
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:  #13292A;
-  }
-  
-  li {
-    float: right;
-    list-style: none;
-  }
-  
-  li a {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-    padding-right: 25px;
-    font-family: "Lustria", serif;
-    font-size: 18px;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: black;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+
 
 .picotsikko {
     width: 20%;
