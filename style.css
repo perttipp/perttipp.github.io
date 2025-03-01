@@ -295,9 +295,11 @@ textarea::placeholder {
     min-height: 100vh;
     margin-bottom: -120px;
 }
-
-footer, .pusher {
-    background-color: #c11b1b;
+.pusher {
+    height: 120px;
+}
+footer {
+    background-color: #1bc147;
     height: 120px;
     display: flex;
     flex-direction: column;
