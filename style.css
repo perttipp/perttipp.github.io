@@ -106,7 +106,6 @@ header {
     
 }
 
-
   ul {
     list-style-type: none;
     margin: 0;
@@ -136,8 +135,8 @@ header {
   }
   
 .active {
-    background-color: #04AA6D !important;
-    display: block;
+    background-color: #04AA6D
+    
   }
 
 .row {
@@ -410,8 +409,10 @@ footer img {
     section {
         font-size: 16px;
     }
+    li {
+        float: center;
+    }
 }
-
 @media screen and (max-width: 480px) {
     .column img {
         width:320px;
@@ -423,7 +424,10 @@ footer img {
     .alaotsikko {
         font-size: 15px;
     }
-   
+    li {
+        float: center;
+    }
+}    
 @media screen and (max-width: 350px) {
     .column img {
         width: 280px;
@@ -434,5 +438,8 @@ footer img {
     }
     .alaotsikko {
         font-size: 13px;
+    }
+    li {
+        float: center;
     }
 }
