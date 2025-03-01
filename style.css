@@ -195,7 +195,7 @@ header {
     color:#13292A; 
     font-family: "Lato", serif;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 18px;
     margin-bottom: -40px;
 
 }
@@ -328,7 +328,7 @@ footer img {
         width: 100%;
     }
     .emailtxt {
-        font-size: 18px;
+        font-size: 17px;
     }
     .laheta { 
         font-size: 20px;   
@@ -356,7 +356,7 @@ footer img {
         height: 170px;
     }
     .picotsikko {   /* Otsikon kuva */
-        width: 16%;
+        width: 160%;
     }
     .otsikko {
         font-size: 25px;
