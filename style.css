@@ -1,7 +1,6 @@
 * {
     
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&display=swap');
-    1outline: 1px solid red; 
     box-sizing: border-box;
   }
 
@@ -14,8 +13,6 @@
   
 html {
     background-color: #e7ded9; 
-    
-
 
 body {      
     max-width: 1300px;
@@ -110,7 +107,7 @@ header {
 }
 
 
-ul {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -140,6 +137,7 @@ ul {
   
 .active {
     background-color: #04AA6D !important;
+    display: block;
   }
 
 .row {
@@ -319,11 +317,8 @@ footer img {
     header {
         height: 240px;
     }
-    nav button {
-        padding: 12px 22px;
-        font-size: 22px;
-        margin: 10px;
-     }
+    
+     
     .kiitos button { 
         font-size: 16px;
         padding: 10px 19px;
@@ -361,10 +356,7 @@ footer img {
         width:350px;
         height:230px;
     }
-    nav button {
-        padding: 13px 24px;
-        font-size: 20px;
-    }
+     
     header {
         height: 170px;
     }
@@ -381,11 +373,6 @@ footer img {
 @media screen and (max-width: 750px) {
     header {
         height: 170px;
-    }
-    nav button {
-        padding: 12px 23px;
-        font-size: 18px;
-        margin: 8px;
     }
     
     .kiitos button { 
@@ -436,24 +423,11 @@ footer img {
     .alaotsikko {
         font-size: 15px;
     }
-    nav button {
-        padding: 8px 17px;
-        font-size: 16px;
-        margin: 8px;
-    }
-}
+   
 @media screen and (max-width: 350px) {
     .column img {
         width: 280px;
         height: 180px;
-    }
-    nav button {
-        padding: 5px 11px;
-        font-size: 13px;
-        margin: 8px;
-    }
-    nav {
-    padding-right: 1px;
     }
     .otsikko {
         font-size: 21px;
