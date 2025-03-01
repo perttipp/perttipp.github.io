@@ -169,7 +169,7 @@ header {
   
  
 .pdf {
-    background-color:#ffffff;
+    background-color:#e7ded9;
     align-items: center;
     text-align: center;
     
@@ -299,7 +299,7 @@ footer {
     justify-content: center;
     width: 100%;
     padding-top: 0px;
-    margin-top:calc(5% + 60px);
+    margin-top:auto;
 }
 
 footer p {
