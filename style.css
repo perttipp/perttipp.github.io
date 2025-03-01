@@ -195,7 +195,7 @@ header {
     color:#13292A; 
     font-family: "Lato", serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2px;
     margin-bottom: -40px;
 
 }
@@ -421,7 +421,7 @@ footer img {
         font-size: 15px;
     }
     li {
-        float: center;
+        float: none;
     }
 } 
 
@@ -437,6 +437,6 @@ footer img {
         font-size: 13px;
     }
     li {
-        float: center;
+        float: none;
     }
 }
