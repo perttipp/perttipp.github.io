@@ -56,7 +56,7 @@ header {
     flex-direction: row; /* Keep image and text on the same row */
     align-items: center; /* Align content vertically */
     background-size: cover;
-    background-image: linear-gradient(to right, #e7ded9, #13292A);
+    background-image: linear-gradient(to left, #e7ded9, #13292A);
     background-repeat: no-repeat;
     height: 300px;
     padding: 20px; /* Add padding to prevent content from touching edges */
@@ -82,7 +82,9 @@ ul {
     text-align: center;
     padding: 14px 10px;
     text-decoration: none;
-    padding-right: 40px;
+    padding-right: 25px;
+    font-family: "Lustria", serif;
+    font-size: 18px;
   }
   
   li a:hover:not(.active) {
