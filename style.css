@@ -297,7 +297,7 @@ textarea::placeholder {
 }
 
 footer, .pusher {
-    background-color: #ffffff;
+    background-color: #c11b1b;
     height: 120px;
     display: flex;
     flex-direction: column;
