@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="fi">
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            let currentPage = window.location.pathname.split("/").pop();
-            let links = document.querySelectorAll("nav ul li a");
-            links.forEach(link => link.classList.remove("active"));
-            links.forEach(link => {
-                if (link.getAttribute("href") === currentPage) {
-                    link.classList.add("active"); // Add 'active' class to the current page link
-                }
-            });
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let currentPage = window.location.pathname.split("/").pop();
+        let links = document.querySelectorAll("nav ul li a");
+        links.forEach(link => link.classList.remove("active"));
+        links.forEach(link => {
+            if (link.getAttribute("href") === currentPage) {
+                link.classList.add("active"); // Add 'active' class to the current page link
+            }
         });
-        </script>
+    });
+    </script>
         
 <head>
     <title>CV</title>
@@ -42,7 +43,7 @@
         <img src="CVteol.jpeg" alt="My CV"> 
     </section>
 
-    <footer
+    <footer>
         <a href="https://www.linkedin.com/in/pertti-paananen/" target="_blank">
         <img src="Linked22.jpg" alt="My linkedin page"></a>
         <p>Copyright © Pertti Paananen 2025</p>
@@ -72,7 +73,7 @@
 
 
 
-    
+
 </body>
 
 </html>

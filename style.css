@@ -170,6 +170,7 @@ header {
     background-color:#ffffff;
     align-items: center;
     text-align: center;
+    
 }
 
 .pdf img {
@@ -177,8 +178,7 @@ header {
     height: auto;
     border: 1px solid #13292A;
     margin-top: 20px;
-
-
+    
 }
 
 .content {
@@ -297,7 +297,7 @@ footer {
     justify-content: center;
     width: 100%;
     padding-top: 0px;
-
+    
 }
 
 footer p {
