@@ -21,8 +21,8 @@ body {
     border: 1px solid #13292A;;
     border-top: transparent;
     border-bottom: transparent;
+   
     
-}
 
 p {
     color:#13292A;
@@ -102,11 +102,11 @@ header {
     color: #13292a;
     padding-bottom: 1px;
     padding-top: 50px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
 }
 
   ul {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -120,6 +120,7 @@ header {
   }
   
   li a {
+    
     display: block;
     color: #ffffff;
     text-align: center;
@@ -128,15 +129,15 @@ header {
     padding-right: 35px;
     font-family: "Lustria", serif;
     font-size: 18px;
+    width: 100%;
   }
-  
+
   li a:hover:not(.active) {
     background-color: black;
   }
   
 .active {
     background-color:#B3C1BF;
-    
   }
 
 .row {
@@ -177,7 +178,7 @@ header {
 
 .pdf img {
     max-width: 100%;
-    height: auto;
+    1height: auto;
     border: 1px solid #13292A;
     margin-top: 20px;
     
@@ -209,7 +210,7 @@ header {
 .form {
     background-color: #e7ded9;
     background-position: center;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center; /* Centers form horizontally */
     width: 100%;
@@ -290,7 +291,12 @@ textarea::placeholder {
 
 }
 
-footer {
+.pdf {
+    min-height: 100vh;
+    margin-bottom: -120px;
+}
+
+footer, .pusher {
     background-color: #ffffff;
     height: 120px;
     display: flex;
