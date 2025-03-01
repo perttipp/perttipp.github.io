@@ -178,11 +178,11 @@ header {
 
 .pdf img {
     max-width: 100%;
-    1height: auto;
+    height: auto;
     border: 1px solid #13292A;
-    border-top: transparent;
+    
     margin-top: 20px;
-    padding-top: 15px;
+    
     
 }
 
@@ -309,7 +309,7 @@ footer {
     justify-content: center;
     width: 100%;
     padding-top: 0px;
-    
+    vertical-align: top !important;
     
 }
 
