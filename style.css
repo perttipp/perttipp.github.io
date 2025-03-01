@@ -7,18 +7,16 @@
   html, body {
     width: 100%;
     align-items: center;
-    max-width: 1922px;
+    max-width: 1300px;
     margin: 0 auto;
   }
   
 html {
     background-color: #e7ded9; 
+}
 
 body {      
-    max-width: 1300px;
-    border: 1px;
-    color: #13292A;
-    border-style: solid;
+    border: 1px solid #13292A;;
     border-top: transparent;
     border-bottom: transparent;
     
@@ -26,7 +24,7 @@ body {
 
 p {
     color:#13292A;
-    font-family: "Lato", serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     padding: 100px 30px 50px 30px;
 
@@ -42,7 +40,7 @@ p {
     margin-right: 20px;
     padding: 1px;
     padding-bottom: 30px;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 0px;
     padding-top: 0px;
     
@@ -385,7 +383,10 @@ footer img {
     }
     li {
         float: none;
-    }   
+    }
+     li a {
+        border: solid 1px black; 
+    }
     .laheta {       /*lähetä button*/
         cursor: pointer;
         transition: 0.3s;
@@ -430,6 +431,9 @@ footer img {
     }
     li {
         float: none;
+    }
+    li a {
+        border: solid 1px black; 
     }
     .column {
         width: 100%; 
