@@ -1,52 +1,89 @@
 <!DOCTYPE html>
 <html lang="fi">
 
+    
 <head>
-    <title>Ota Yhteyttä</title>
+    <title>Etusivu</title>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
-
 </head>
 
 <body>
 
-    <div class="header1">
-       <a class="picotsikko" href="index2.html"><img src="picheader.png" alt="Profile Image"></a>
+    <header>
+            <img class="picotsikko" src="picheader.png" alt="Profile Image">
         <div class="text-container">
-        <p class="otsikko">Pertti Paananen</p>
-        <p class="alaotsikko">Prosessioperaattori</p>
+            <p class="otsikko">Pertti Paananen</p>
+            <p class="alaotsikko">Prosessioperaattori</p>
         </div>
-    </div>
+    </header>  
 
-    <div class="linkit">
-        <button class="button" type="button" onclick="document.location='index.html'">Etusivu</button>
-        <button class="button" type="button" onclick="document.location='cv.html'">CV</button>   
-    </div>
+    <nav>
+        <ul>
+            <li><a class="active" href="yhteys.html">Ota yhteyttä</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="index2.html">Etusivu</a></li>
+        <ul>
+    </nav>
 
-    <div class="maili">
-        <p class="emailtxt">Saat minuun yhteyden käyttämällä oheista sähköposti lomaketta tai email osoitetta.</p>
-        <a class="email" href= "mailto:name@email.com">apoxvaan@gmail.com</a>
-    </div>
+    <section class="tekstiotsikot"
+        <h3>Ammattitaito</h3>
+    </section>
 
-    <div class="form">
-        <form target="_blank" action="https://formsubmit.co/apoxvaan@gmail.com" method="POST">
-        <input placeholder="Etu- ja sukunimi" style="color:#13292A;" name="name" required>
-        <input type="tel" name="phone" style="color:#13292A;" placeholder="Puhelinnumero">
-        <input type="email" style="color: #13292A;" placeholder="Sähköpostiosoite" autocomplete="email" required name="email"> 
-        <textarea placeholder="Sinun viestisi" style="color:#13292A; height: 180px" name="message" required></textarea> 
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://perttipp.github.io/kiitos">
-        <input type="submit" value="Lähetä" class="laheta">
-        </form>
-    </div>
     
-    <div class="footer">
-        <a href="https://www.linkedin.com/in/pertti-paananen/" target="_blank">
-        <img src="Linked22.jpg" alt="My linkedin page"></a> 
-        <p>Copyright © Pertti Paananen 2025</p>  
-    </div>
+    <section class="content">
+        <p>Moi. Olen teollisuuden kokenut ammattilainen, ja minulla on laaja kokemus kemian prosessiteollisuudesta, noin 15 vuoden ajalta. Kokemusta ja osaamista on kertynyt valvomo- ja kenttäoperaattorin tehtävistä.</p>
+        <p>Koulutuksena minulla on kemianteollisuuden perustutkinto ja ammattitutkinto.</p>
+        <p>Pisin ja viimeisin työkokemukseni on Kemira Chemicals Oy:n palveluksessa Sastamalassa, jossa työskentelin yhteensä 14 vuotta. Aluksi toimin hienokemikaalitehtaan operaattorina muutaman vuoden ajan, jonka jälkeen siirryin natriumkloraattitehtaan operaattoriksi. Toimenkuvani sisälsi valvomo- ja kenttäoperaattorin tehtäviä, kuten näytteenottoa ja analysointia, tuotteen lastauksia ja prosessinohjausta. Toimin myös toimipaikan tehdaspalokunnassa. Minulla on osaamista Emerson DeltaV, Valmet DNA ja Valmet DNAe -automaatiojärjestelmistä sekä SAP ERP -ohjelmistosta.</p>
+        <p>Olen myös työskennellyt tekstiiliteollisuudessa laitosmiehenä ja koneenhoitajana noin 6 vuoden ajan. Laitosmies tehtävissä toimin Ahlstrom Glassfibre Oy:n palveluksessa Mikkelissä sijaitsevilla tehtailla, joissa valmistettiin monenlaisia lasikuitumattoja pääasiassa tuulivoimala valmistajien raaka-aineeksi. Työnkuvaani laitosmiehenä kuului tuotantokoneiden tuotteen vaihdot, huollot ja korjaukset.</p>
+        <p>Tekstiiliteollisuuden koneenhoitajana työskentelin Intermedius Oy:n palveluksessa Tampereella noin 3 vuoden ajan. Intermedius Oy valmistaa tekstiilimateriaaleja monipuolisesti tekstiiliteollisuuden tuotevalmistajille. Toimenkuvani sisälsi pääasiassa koneenhoitajan tehtäviä huopakoneella, mutta ajoittain myös pituusleikkurilla tuurausta. Pienet korjaus- ja huoltotyöt kuuluivat myös toimenkuvaani. Työhöni sisältyi lisäksi tavaran vastaanottoa, pakkausta ja lähetystä.</p>
+    </section>
 
-</body>
+    <section class="row">
+        <div class="column">
+            <img src="refinery.jpg" alt="chemical factory">
+            <img src="pic777.jpg" alt="safety gear">
+        </div>
+
+        <div class="column">
+            <img src="cs.jpg" alt="process control system">
+            <img src="lab.jpg" alt="laboratory work">
+        </div>
+    </section>
+      
+
+    <section class="tekstiotsikot"
+        <h3>Kuka olen</h3>
+    </section>
+
+    
+    <section class="content">
+        <p>Vapaa-aikani kuluu tällä hetkellä harrastusten ja tietojenkäsittelyn tradenomiopintojen parissa.</p>
+        <p>Tärkeimpiä harrastuksiani ovat moottoripyöräily ja VPK-toiminta. Lisäksi aikani kuluu pyöräilyn, kuntosalin, kalastuksen ja mökkeilyn parissa. Kesäisin mökkeily ja moottoripyöräily vievät suuren osan ajastani, mutta usein pystyn yhdistämään nämä kaksi harrastusta. Mökki sijaitsee Itä-Suomessa, josta olen myyös kotoisin, ja matkat sinne taitan mielelläni moottoripyörällä.</p>
+        <p>Tapanani on ollut tehdä kerran vuodessa pidempi 1-2 viikon moottoripyöräreissu, yleensä ulkomaille. Pisin matkani kesti yli kolme kuukautta ja suuntana olivat Turkki, Armenia ja Georgia. Myös Suomen lukuisat soratiet tarjoavat erinomaiset puitteet harrastukselle.</p>
+        <p>Moottoripyöräilyyn ja VPK-toimintaan liittyy myös yhdistystoimintaa, jossa olen aktiivisesti mukana. Asun Sastamalassa, joka tarjoaa erinomaiset mahdollisuudet sekä maasto- että- ja maantiepyöräilyyn. Fatbiken hankinnan myötä myös talvipyöräilyily on tullut osaksi harrastuksiani.</p>
+        <p>Luit juuri lyhyen esittelyn minusta ja osaamisestani. Käy myös tutustumassa <a href="cv.html">CV:hen</a> ja <a href="yhteys.html">Ota yhteyttä!</a></span></p>
+    </section>
+
+    <section class="row">   
+        <div class="column">    
+            <img src="picmoto.jpg" alt="with helmet">
+            <img src="fatbike.jpg" alt="fatbike on the trail">
+        </div>
+
+        <div class="column">
+            <img src="firefighter.jpg" alt="fight with fire">
+            <img src="pic6.jpg" alt="Fishing">   
+        </div>
+    </section>
+
+    <footer 
+        <a href "https://www.linkedin.com/in/pertti-paananen/" target="_blank">
+        <img src="Linked22.jpg" alt="My linkedin page">
+        </a>
+        <p>Copyright © Pertti Paananen 2025</p>
+    </footer>
+
+</body>    
 
 </html>

@@ -1,7 +1,7 @@
 * {
     
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&display=swap');
-
+    1outline: 1px solid red; 
     box-sizing: border-box;
   }
 
@@ -47,33 +47,57 @@ p {
     padding-bottom: 30px;
     font-size: 14px;
     margin-top: 0px;
+    padding-top: 0px;
     
 }
 
-
-.header1 {
+header {
     display: flex;
     flex-direction: row; /* Keep image and text on the same row */
     align-items: center; /* Align content vertically */
     background-size: cover;
-    background-image: linear-gradient(to left, #e7ded9, #13292A);
+    background-image: linear-gradient(to right, #e7ded9, #13292A);
     background-repeat: no-repeat;
     height: 300px;
     padding: 20px; /* Add padding to prevent content from touching edges */
     width: 100%;
     
-    
 }
-    
-.picotsikko a {
-    width: 2;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #13292A;
+  }
+  
+  li {
+    float: right;
+    list-style: none;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    padding-right: 40px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+.picotsikko {
+    width: 20%;
     height: auto;
 }
-.picotsikko img {
-    width: 200px;
-    
 
-}
 .text-container {
     display: flex;
     flex-direction: column; /* Stack name and title vertically */
@@ -85,70 +109,35 @@ p {
 .otsikko {
     font-size: 35px;
     font-family: "Lustria", serif;
-    padding-left: 350px;
+    padding-left: 5px;
     color: #ffffff;
     padding-bottom: 0px;
-    padding-top: 0px;
-    padding-left: 28px;
-    width: auto;
-   
+    padding-top: 10px;
+    
 }
 
 .alaotsikko {
     font-size: 25px;
     font-family: "Lustria", serif;
     padding-top: 0px;
-    margin: 2px;
-    padding-left: 30px;
+    margin: 0;
+    padding-left: 10px;
     color: #ffffff;
-    width: auto;
-
 
 }
     
-.kuvaotsikot {
+.tekstiotsikot {
     font-size: 20px;
+    font-weight: bold;
     font-family: "Lustria", serif;
     padding-left: 20px;
     color: #13292a;
     padding-bottom: 1px;
-    padding-top: 40px;
-    margin-bottom: 1px;
+    padding-top: 50px;
+    margin-bottom: 10px;
     
 }
 
-.linkit button {
-    color: #ffffff;
-    background-color: #13292a;
-    font-size: 21px;
-    font-family: "Lustria", serif;
-    border-radius: 30px;
-    padding: 12px 23px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    margin: 10px;
-    display: flex;
-    justify-content: flex-end;
-    max-width: 80%;
-    height: auto;
-    align-items: center;
-    transition: 0.3s;
-    text-align: center;
-    }
-
-.linkit button:hover {
-    color: #2d63c8;      
-}
-
-.linkit {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    background-color: #e7ded9;
-    width: 100%;
-    height: auto;
-    padding-right: 45px;
-}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -168,7 +157,7 @@ p {
     clear: both;
   }
 
-  .column img {
+.column img {
     width:620px;
     height:400px;
     border-radius: 30px;
@@ -206,6 +195,7 @@ p {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: -40px;
+
 }
 .email { /*osoite rivi*/
     color:#13292A; 
@@ -298,7 +288,7 @@ textarea::placeholder {
 
 }
 
-.footer {
+footer {
     background-color: #ffffff;
     height: 120px;
     display: flex;
@@ -310,25 +300,20 @@ textarea::placeholder {
 
 }
 
-.footer p {
+footer p {
     padding-top: 0px;
     padding-bottom: 0px;
     }
 
-.footer img {
+footer img {
     height: auto;
     max-width: 90px;
     }
   
 @media screen and (min-width: 980px) and (max-width: 1400px) {
-    .header1 {
+    header {
         height: 240px;
     }
-    .linkit button {
-        padding: 12px 22px;
-        font-size: 22px;
-        margin: 10px;
-     }
     .kiitos button { 
         font-size: 16px;
         padding: 10px 19px;
@@ -348,7 +333,7 @@ textarea::placeholder {
         font-size: 20px;   
     }
     .picotsikko {
-        width: 19%;
+        width: 16%;
     }
     .otsikko {
         font-size: 25px;
@@ -366,15 +351,11 @@ textarea::placeholder {
         width:350px;
         height:230px;
     }
-    .linkit button {
-        padding: 13px 24px;
-        font-size: 20px;
-    }
-    .header1 {
+    header {
         height: 170px;
     }
     .picotsikko {   /* Otsikon kuva */
-        width: 18%;
+        width: 16%;
     }
     .otsikko {
         font-size: 25px;
@@ -384,15 +365,9 @@ textarea::placeholder {
     }
 }
 @media screen and (max-width: 750px) {
-    .header1 {
+    header {
         height: 170px;
     }
-    .linkit button {
-        padding: 12px 23px;
-        font-size: 18px;
-        margin: 8px;
-    }
-    
     .kiitos button { 
         font-size: 16px;
         padding: 10px 18px;
@@ -425,7 +400,7 @@ textarea::placeholder {
         width:440px;
         height:260px;
     }
-    .kuvaotsikot {
+    section {
         font-size: 16px;
     }
 }
@@ -441,29 +416,17 @@ textarea::placeholder {
     .alaotsikko {
         font-size: 15px;
     }
-    .linkit button {
-        padding: 9px 18px;
-        font-size: 17px;
-        margin: 8px;
-    }
+     
 }
 @media screen and (max-width: 350px) {
     .column img {
         width: 280px;
         height: 180px;
     }
-    .linkit button {
-        padding: 6px 14px;
-        font-size: 16px;
-        margin: 8px;
-    }
-    .linkit {
-    padding-right: 1px;
-    }
     .otsikko {
         font-size: 21px;
     }
     .alaotsikko {
         font-size: 13px;
+    }
 }
-
