@@ -312,7 +312,7 @@ footer img {
     max-width: 90px;
     }
   
-@media screen and (min-width: 980px) and (max-width: 1400px) {
+@media screen and (min-width: 981px) and (max-width: 1400px) {
     header {
         height: 240px;
     }    
@@ -346,11 +346,26 @@ footer img {
         width:470px;
         height:300px;
     } 
+    .laheta {       /*lähetä button*/
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #511bae;
+    }
 }
+
 @media screen and (min-width: 751px) and (max-width: 980px) {
+    .row {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align the columns */
+    }
+    .column {
+        float: none; 
+        width: 100%; /*1 column pienellä näytöllä*/
+    }
     .column img {
-        width:350px;
-        height:230px;
+        width: 650px;
+        height:420px;
+       
     }    
     header {
         height: 170px;
@@ -364,11 +379,20 @@ footer img {
     .alaotsikko {
         font-size: 20px;
     }
-    .column {
-        float: none;  /*1 column pienellä näytöllä*/
-        width: 100%;
+    
+    section {
+        font-size: 16px;
+    }
+    li {
+        float: none;
+    }   
+    .laheta {       /*lähetä button*/
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #d11212;
     }
 }
+
 @media screen and (max-width: 750px) {
     header {
         height: 170px;
@@ -387,10 +411,7 @@ footer img {
     .emailtxt  {
         font-size: 15px;
     }  
-    .column {
-        float: none;  /*1 column pienellä näytöllä*/
-        width: 100%; 
-    }
+
     .picotsikko {
         width: 25%;
     }
@@ -401,14 +422,17 @@ footer img {
         font-size: 20px;
     }
     .column img {
-        width:440px;
-        height:260px;
+        width: 450px;
+        height: 250px;
     }
     section {
         font-size: 16px;
     }
     li {
         float: none;
+    }
+    .column {
+        width: 100%; 
     }
 }
 
@@ -426,7 +450,10 @@ footer img {
     li {
         float: none;
     }
-} 
+    .column {
+        width: 100%; 
+    } 
+}
 
 @media screen and (max-width: 350px) {
     .column img {
