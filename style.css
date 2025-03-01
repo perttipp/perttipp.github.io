@@ -9,6 +9,8 @@
     align-items: center;
     max-width: 1300px;
     margin: 0 auto;
+    
+
   }
   
 html {
@@ -297,7 +299,7 @@ footer {
     justify-content: center;
     width: 100%;
     padding-top: 0px;
-    
+    margin-top:calc(5% + 60px);
 }
 
 footer p {
