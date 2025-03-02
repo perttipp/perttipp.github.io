@@ -38,6 +38,10 @@ p {
     padding: 100px 30px 50px 30px;
 
 }
+.hidden {
+    display: none;
+    font-size: 10px;
+}
 .content p {
     color:#13292A;
     font-weight: 400;
@@ -246,7 +250,7 @@ textarea::placeholder {
 .laheta {       /*lähetä button*/
     cursor: pointer;
     transition: 0.3s;
-    background-color: #cf1d1d;
+    background-color: #13292A;
     color: #ffffff;
     font-family: "Lato", serif;
     font-weight: 400;
@@ -255,8 +259,7 @@ textarea::placeholder {
 }
 button:hover, .laheta:hover {
     color: #2d63c8 !important;
-    background-color: #a22b2b;
-
+    
 }
 
 .kiitos {
