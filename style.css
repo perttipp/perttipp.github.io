@@ -212,7 +212,7 @@ header {
 .form {
     background-color: #e7ded9;
     background-position: center;
-    height: auto;
+    height: 700px;
     display: flex;
     justify-content: center; /* Centers form horizontally */
     width: 100%;
