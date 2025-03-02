@@ -200,9 +200,10 @@ header {
     text-align: center;
     
 }
-.emailtxt { /*Sivun teksti*/
-    font-family: "Lato", serif;
+.emailtxt, .kiitos h3 { /*Sivun teksti*/
+    font-family: "Lato", sans-serif;
     font-size: 18px;
+    font-weight: 400;
 }
 .email { /*osoite rivi*/
     color:#13292A; 
@@ -265,8 +266,6 @@ button:hover, .laheta:hover {
 
 .kiitos {
     background-color: #e7ded9;
-    font-family: "Lato", serif;
-    font-weight: 400;
     margin: 30px;
     display: flex;
     flex-direction: column;
