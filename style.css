@@ -21,8 +21,11 @@ body {
     border: 1px solid #13292A;;
     border-top: transparent;
     border-bottom: transparent;
-   
-    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: stretch;
 
 p {
     color:#13292A;
@@ -112,6 +115,10 @@ header {
     padding: 0;
     overflow: hidden;
     background-color:  #13292A;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
   }
   
   li {
@@ -173,14 +180,13 @@ header {
     background-color:#e7ded9;
     align-items: center;
     text-align: center;
-    
+    flex-grow: 1;
 }
 
 .pdf img {
     max-width: 100%;
     height: auto;
     border: 1px solid #13292A;
-    
     margin-top: 20px;
     
     
@@ -195,27 +201,22 @@ header {
     
 }
 .emailtxt { /*Sivun teksti*/
-    color:#13292A; 
     font-family: "Lato", serif;
-    font-weight: 400;
     font-size: 18px;
-    margin-bottom: -40px;
-
 }
 .email { /*osoite rivi*/
     color:#13292A; 
-    font-family: 'Lato', sans-serif;
     font-size: 17px;
-    padding: 0px 0px 0px 0px;
+    
 
 }
 .form {
-    background-color: #e7ded9;
     background-position: center;
     height: 700px;
     display: flex;
     justify-content: center; /* Centers form horizontally */
     width: 100%;
+    flex-grow: 1;
 
 }
 
@@ -270,6 +271,7 @@ textarea::placeholder {
     align-items: center;
     height: 1000px;
     padding: 50px 0px 100px 0px !important;
+    flex-grow: 1;
 }
 
 .kiitos button { 
@@ -293,15 +295,9 @@ textarea::placeholder {
 
 }
 
-.pdf {
-    min-height: 100vh;
-    margin-bottom: -120px;
-}
-.pusher {
-    height: 120px;
-}
+
 footer {
-    background-color: #1bc147;
+    background-color: #ffffff;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -309,8 +305,9 @@ footer {
     justify-content: center;
     width: 100%;
     padding-top: 0px;
-    vertical-align: top !important;
+    flex-shrink: 0;
     
+
 }
 
 footer p {
@@ -323,6 +320,8 @@ footer img {
     max-width: 90px;
     }
   
+
+
 @media screen and (min-width: 981px) and (max-width: 1400px) {
     header {
         height: 240px;
@@ -330,7 +329,6 @@ footer img {
     .kiitos button { 
         font-size: 16px;
         padding: 10px 19px;
-        background-color: #13292A;
     }
     .kiitos h3 {
         font-size: 18px;
@@ -339,7 +337,7 @@ footer img {
         width: 100%;
     }
     .emailtxt {
-        font-size: 17px;
+        font-size: 20px;
     }
     .laheta { 
         font-size: 20px;   
@@ -357,11 +355,6 @@ footer img {
         width:470px;
         height:300px;
     } 
-    .laheta {       /*lähetä button*/
-        cursor: pointer;
-        transition: 0.3s;
-        background-color: #511bae;
-    }
 }
 
 @media screen and (min-width: 751px) and (max-width: 980px) {
@@ -375,11 +368,13 @@ footer img {
     }
     .column img {
         width: 650px;
-        height:420px;
-       
+        height:420px;  
     }    
     header {
         height: 170px;
+    }
+    .emailtxt {
+        font-size: 20px;
     }
     .picotsikko {   /* Otsikon kuva */
         width: 16%;
@@ -390,21 +385,21 @@ footer img {
     .alaotsikko {
         font-size: 20px;
     }
-    
+    ul {
+        flex-direction: column; /* Asettaa navigaation pystysuuntaiseksi */
+        align-items: center; /* Keskittää navigaatiokohdat */
+    }
     section {
         font-size: 16px;
     }
     li {
         float: none;
+        width: 100%;
     }
      li a {
         border: solid 1px black; 
     }
-    .laheta {       /*lähetä button*/
-        cursor: pointer;
-        transition: 0.3s;
-        background-color: #d11212;
-    }
+    
 }
 
 @media screen and (max-width: 750px) {
@@ -414,7 +409,6 @@ footer img {
     .kiitos button { 
         font-size: 16px;
         padding: 10px 18px;
-        background-color: #13292A;
     }
     .kiitos h3 {
         font-size: 15px;
@@ -444,9 +438,14 @@ footer img {
     }
     li {
         float: none;
+        width: 100%;
     }
     li a {
         border: solid 1px black; 
+    }
+    ul {
+        flex-direction: column; /* Asettaa navigaation pystysuuntaiseksi */
+        align-items: center; /* Keskittää navigaatiokohdat */
     }
     .column {
         width: 100%; 
