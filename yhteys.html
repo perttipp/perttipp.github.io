@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html lang="fi">
   
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        let currentPage = window.location.pathname.split("/").pop();
-        let links = document.querySelectorAll("nav ul li a");
-        links.forEach(link => link.classList.remove("active"));
-        links.forEach(link => {
-            if (link.getAttribute("href") === currentPage) {
-                link.classList.add("active"); // Add 'active' class to the current page link
-            }
-        });
-    });
-    </script>
-
 <head>
-    <title>Ota Yhteyttä</title>
     <meta charset="UTF-8">
+    <title>Ota Yhteyttä</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -42,7 +28,7 @@
 
     <section class="maili">
         <p class="emailtxt">Saat minuun yhteyden käyttämällä oheista sähköposti lomaketta tai email osoitetta.</p>
-        <a class="email" href= "mailto:name@email.com">apoxvaan@gmail.com</a>
+        <a class="email" href="mailto:name@email.com">apoxvaan@gmail.com</a>
     </section>
 
     <section class="form">
@@ -62,35 +48,6 @@
         <img src="Linked22.jpg" alt="My linkedin page"></a> 
         <p>Copyright © Pertti Paananen 2025</p>  
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

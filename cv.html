@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html lang="fi">
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        let currentPage = window.location.pathname.split("/").pop();
-        let links = document.querySelectorAll("nav ul li a");
-        links.forEach(link => link.classList.remove("active"));
-        links.forEach(link => {
-            if (link.getAttribute("href") === currentPage) {
-                link.classList.add("active"); // Add 'active' class to the current page link
-            }
-        });
-    });
-    </script>
-        
+  
 <head>
-    <title>CV</title>
     <meta charset="UTF-8">
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -34,8 +20,8 @@
     <nav>
         <ul>
             <li><a href="index.html">Etusivu</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a class="active" href="yhteys.html">Ota yhteyttä</a></li>           
+            <li><a class="active" href="cv.html">CV</a></li>
+            <li><a href="yhteys.html">Ota yhteyttä</a></li>           
         </ul>
     </nav>
 
@@ -50,30 +36,6 @@
         <img src="Linked22.jpg" alt="My linkedin page"></a>
         <p>Copyright © Pertti Paananen 2025</p>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

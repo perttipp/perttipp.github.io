@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&display=swap');
-box-sizing: border-box;
+
 
 * {
-    
+    box-sizing: border-box;
 
   }
 
@@ -21,7 +21,7 @@ html {
 }
 
 body {      
-    border: 1px solid #13292A;;
+    border: 1px solid #13292A;
     border-top: transparent;
     border-bottom: transparent;
     min-height: 100vh;
@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     align-items: stretch;
+}
 
 p {
     color:#13292A;
@@ -39,10 +40,9 @@ p {
 }
 .content p {
     color:#13292A;
-    font-family: "Lato", serif;
     font-weight: 400;
     margin-bottom: 0px;
-    line-height: 1.5;
+    line-height: 1.6;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -56,8 +56,8 @@ p {
 
 header {
     display: flex;
-    flex-direction: row; /* Keep image and text on the same row */
-    align-items: center; /* Align content vertically */
+    flex-direction: row; 
+    align-items: center; 
     background-size: cover;
     background-image: linear-gradient(to left, #e7ded9, #13292A);
     background-repeat: no-repeat;
@@ -73,14 +73,13 @@ header {
 
 .text-container {
     display: flex;
-    flex-direction: column; /* Stack name and title vertically */
-    max-width: 50%; /* Prevent text from stretching too far */
-    overflow: hidden; /* Ensures text stays within the div */
-    
+    flex-direction: column; 
+    max-width: 50%; 
+
 }
 
 .otsikko {
-    font-size: 35px;
+    font-size: 37px;
     font-family: "Lustria", serif;
     padding-left: 5px;
     color: #ffffff;
@@ -90,7 +89,7 @@ header {
 }
 
 .alaotsikko {
-    font-size: 25px;
+    font-size: 27px;
     font-family: "Lustria", serif;
     padding-top: 0px;
     margin: 0;
@@ -124,7 +123,6 @@ header {
   }
   
   li {
-    float: right;
     list-style: none;
   }
   
@@ -161,12 +159,6 @@ header {
     padding-bottom: 40px;
     padding-top: 25px;
  }
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 .column img {
     width:620px;
@@ -209,7 +201,7 @@ header {
 }
 .email { /*osoite rivi*/
     color:#13292A; 
-    font-size: 17px;
+    font-size: 19px;
     
 
 }
@@ -217,7 +209,7 @@ header {
     background-position: center;
     height: 700px;
     display: flex;
-    justify-content: center; /* Centers form horizontally */
+    justify-content: center; 
     width: 100%;
     flex-grow: 1;
 
@@ -225,22 +217,22 @@ header {
 
 .form form {
     display: flex;
-    flex-direction: column; /* Stacks inputs vertically */
-    align-items: center; /* Centers inputs horizontally */
-    width: 100%; /* Adjust width if needed */
-    max-width: 400px; /* Prevents inputs from being too wide */
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 400px; 
     padding: 50px 0px 0px 0px;
 
 }
 
 .form input,
 .form textarea {
-    width: 100%; /* Makes inputs take full width of form */
-    max-width: 350px; /* Adjust width for better layout */
-    margin-bottom: 10px; /* Adds space between inputs */
-    padding: 10px; /* Better spacing inside inputs */
-    border: 1px solid #13292A; /* Adds a border */
-    border-radius: 30px; /* Slight rounding for aesthetics */
+    width: 100%; 
+    max-width: 350px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border: 1px solid #13292A; 
+    border-radius: 30px; 
     font-family: "Lato", serif;
     font-weight: 400;
 
@@ -258,10 +250,12 @@ textarea::placeholder {
     font-family: "Lato", serif;
     font-weight: 400;
     font-size: 25px;
-    border-radius: 30px !important; /* Oltava important, jos muokkaa erikseen .form */
+    border-radius: 30px  
 }
-.laheta:hover {
+button:hover, .laheta:hover {
     color: #2d63c8 !important;
+    background-color: #a22b2b;
+
 }
 
 .kiitos {
@@ -288,16 +282,12 @@ textarea::placeholder {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 30px;
-    
 }
-.kiitos button:hover {
-    color: #2d63c8 !important;
-}
+
 .kiitos h3 {
     padding: 9px;
 
 }
-
 
 footer {
     background-color: #ffffff;
@@ -340,7 +330,7 @@ footer img {
         width: 100%;
     }
     .emailtxt {
-        font-size: 20px;
+        font-size: 21px;
     }
     .laheta { 
         font-size: 20px;   
@@ -349,10 +339,10 @@ footer img {
         width: 16%;
     }
     .otsikko {
-        font-size: 25px;
+        font-size: 28px;
     }
     .alaotsikko {
-        font-size: 22px;
+        font-size: 25px;
     }
     .column img {
         width:470px;
@@ -362,8 +352,8 @@ footer img {
 
 @media screen and (min-width: 751px) and (max-width: 980px) {
     .row {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center align the columns */
+        flex-direction: column; 
+        align-items: center; 
     }
     .column {
         float: none; 
@@ -377,16 +367,16 @@ footer img {
         height: 170px;
     }
     .emailtxt {
-        font-size: 20px;
+        font-size: 21px;
     }
     .picotsikko {   /* Otsikon kuva */
         width: 16%;
     }
     .otsikko {
-        font-size: 25px;
+        font-size: 28px;
     }
     .alaotsikko {
-        font-size: 22px;
+        font-size: 25px;
     }
     ul {
         flex-direction: column; /* Asettaa navigaation pystysuuntaiseksi */
@@ -447,8 +437,8 @@ footer img {
         border: solid 1px black; 
     }
     ul {
-        flex-direction: column; /* Asettaa navigaation pystysuuntaiseksi */
-        align-items: center; /* Keskittää navigaatiokohdat */
+        flex-direction: column; 
+        align-items: center; 
     }
     .column {
         width: 100%; 
