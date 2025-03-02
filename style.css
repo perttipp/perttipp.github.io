@@ -350,7 +350,7 @@ footer img {
         font-size: 25px;
     }
     .alaotsikko {
-        font-size: 20px;
+        font-size: 22px;
     }
     .column img {
         width:470px;
@@ -384,7 +384,7 @@ footer img {
         font-size: 25px;
     }
     .alaotsikko {
-        font-size: 20px;
+        font-size: 22px;
     }
     ul {
         flex-direction: column; /* Asettaa navigaation pystysuuntaiseksi */
@@ -418,7 +418,7 @@ footer img {
         width: 85%;
     }    
     .emailtxt  {
-        font-size: 15px;
+        font-size: 18px;
     }  
 
     .picotsikko {
@@ -428,7 +428,7 @@ footer img {
         font-size: 25px;
     }
     .alaotsikko {
-        font-size: 20px;
+        font-size: 22px;
     }
     .column img {
         width: 450px;
