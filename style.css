@@ -183,6 +183,8 @@ header {
 }
 
 .pdf img {
+    width: 927px;
+    height: 1200px;
     max-width: 100%;
     height: auto;
     border: 1px solid #13292A;
@@ -313,6 +315,8 @@ footer p {
     }
 
 footer img {
+    width: 203px;
+    height: 52px;
     height: auto;
     max-width: 90px;
     }
