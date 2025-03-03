@@ -71,6 +71,8 @@ header {
 }
     
 .picotsikko {
+    width: 806px;
+    height: 806px;
     width: 20%;
     height: auto;
     padding-left: 5px;
