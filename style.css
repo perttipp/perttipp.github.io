@@ -21,9 +21,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     align-items: stretch;
-    margin: 0 auto;
+
+
 }
 
 header {
@@ -207,7 +207,7 @@ p {
 }
 .form {
     background-position: center;
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: center; 
     width: 100%;
@@ -233,7 +233,7 @@ p {
     padding: 10px; 
     border: 1px solid #13292A; 
     border-radius: 30px; 
-    font-family: "Lato", serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
 
@@ -248,7 +248,7 @@ textarea::placeholder {
     transition: 0.3s;
     background-color: #13292A;
     color: #ffffff;
-    font-family: "Lato", serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 25px;
     border-radius: 30px  
@@ -313,7 +313,7 @@ footer img {
     }
 
 
-    
+
 @media screen and (min-width: 981px) and (max-width: 1400px) {
     header {
         height: 240px;
