@@ -4,38 +4,44 @@
 
 * {
     box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
   }
 
-  html, body {
-    width: 100%;
-    align-items: center;
-    max-width: 1300px;
-    margin: 0 auto;
-
-  }
-  
 html {
+    width: 100%;
     background-color: #e7ded9; 
 }
 
-body {      
-    border: 1px solid #13292A;
-    border-top: transparent;
-    border-bottom: transparent;
+body {  
+    max-width: 1300px;
+    margin: 0 auto;
+    border-left: 1px solid #13292A;
+    border-right: 1px solid #13292A;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     align-items: stretch;
+    margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    background-size: cover;
+    background-image: linear-gradient(to left, #e7ded9, #13292A);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;  
+}
+    
 p {
     color:#13292A;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding: 100px 30px 50px 30px;
-
 }
 .hidden {
     display: none;
@@ -56,19 +62,6 @@ p {
     padding-top: 0px;
     
 }
-
-header {
-    display: flex;
-    flex-direction: row; 
-    align-items: center; 
-    background-size: cover;
-    background-image: linear-gradient(to left, #e7ded9, #13292A);
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
-    
-}
-    
 .picotsikko {
     width: 806px;
     height: 806px;
@@ -76,7 +69,6 @@ header {
     height: auto;
     padding-left: 5px;
 }
-
 .text-container {
     display: flex;
     flex-direction: column; 
@@ -91,7 +83,7 @@ header {
     color: #ffffff;
     padding-bottom: 0px;
     padding-top: 10px;
-    
+
 }
 
 .alaotsikko {
@@ -190,18 +182,17 @@ header {
     height: auto;
     border: 1px solid #13292A;
     margin-top: 20px;
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 20px;   
 }
 
 .content {
     background-color: #e7ded9;
-    
+
 }
+
 .maili {
     text-align: center;
-    
+
 }
 .emailtxt, .kiitos h3 { /*Sivun teksti*/
     font-family: "Lato", sans-serif;
@@ -211,8 +202,8 @@ header {
 .email { /*osoite rivi*/
     color:#13292A; 
     font-size: 19px;
-    
 
+    
 }
 .form {
     background-position: center;
@@ -263,8 +254,7 @@ textarea::placeholder {
     border-radius: 30px  
 }
 button:hover, .laheta:hover {
-    color: #B3C1BF !important;
-    
+    color: #B3C1BF !important;   
 }
 
 .kiitos {
@@ -321,9 +311,9 @@ footer img {
     height: auto;
     max-width: 90px;
     }
-  
 
 
+    
 @media screen and (min-width: 981px) and (max-width: 1400px) {
     header {
         height: 240px;
